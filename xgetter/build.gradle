@@ -1,0 +1,43 @@
+apply plugin: 'com.android.library'
+
+group='com.htetznaing'
+version='1.9.2'
+
+android {
+
+    namespace 'com.mmschooledu'
+    compileSdkVersion 36
+    defaultConfig {
+        minSdkVersion 17
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lint {
+        targetSdk 36
+    }
+    testOptions {
+        targetSdk 36
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':youtubeExtractor')
+    testImplementation libs.junit
+    androidTestImplementation libs.runner
+    androidTestImplementation libs.espresso.core.v360alpha01
+    implementation libs.volley
+    implementation libs.commons.lang3
+    implementation libs.jsoup.v1161
+    implementation libs.gson
+
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ebook_AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ebook_primary</item>
+        <item name="colorPrimaryVariant">@color/ebook_primary_dark</item>
+        <item name="colorSecondary">@color/ebook_accent</item>
+        <item name="colorAccent">@color/ebook_accent</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/ebook_surface</item>
+        <item name="android:navigationBarColor">@color/ebook_surface</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="EbookArticleBody">
+        <item name="android:textColor">@color/ebook_on_surface</item>
+        <item name="android:textSize">@dimen/blog_text_body</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+</resources>

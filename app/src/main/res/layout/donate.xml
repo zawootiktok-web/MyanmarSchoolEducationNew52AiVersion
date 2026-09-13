@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<TextView
+		android:text="@string/hello_world"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/tv"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Donate Books "
+		android:id="@+id/btn" android:minHeight="@dimen/project_touch_target" />
+	
+	<com.google.android.gms.ads.AdView
+		android:layout_marginTop="100dp"
+		
+		android:layout_gravity="bottom"
+		android:id="@+id/ad_view"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+		app:adSize="BANNER"
+		app:adUnitId="@string/banner_ad_unit_id">
+
+	</com.google.android.gms.ads.AdView>
+	
+
+</LinearLayout>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="distinctive_canvas">#F6F4FA</color>
+    <color name="distinctive_navy">#18233F</color>
+    <color name="distinctive_indigo">#4D4AA8</color>
+    <color name="distinctive_teal">#0E8F91</color>
+    <color name="distinctive_coral">#E77768</color>
+    <color name="distinctive_gold">#D8A645</color>
+    <color name="distinctive_violet">#7863B4</color>
+    <color name="distinctive_card_surface">#FFFFFF</color>
+    <color name="distinctive_on_surface">#20243B</color>
+    <color name="distinctive_muted">#71758A</color>
+</resources>

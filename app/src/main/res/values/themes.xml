@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyanmarSchoolEducation2023" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.MyanmarSchoolEducation2023" parent="Base.Theme.MyanmarSchoolEducation2023" />
+    <style name="Theme.UserDialog" parent="Theme.AppCompat.Dialog.MinWidth">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+    </style>
+
+    <style name="TransparentDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item> <!-- ทำให้พื้นหลังมืดลง -->
+    </style>
+
+</resources>

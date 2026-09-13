@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:fillViewport="true" >
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top|center"
+                android:orientation="vertical" >
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tab_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="@dimen/project_card_elevation"
+                    android:layout_gravity="top"
+                    android:minHeight="?attr/actionBarSize"
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+                <SearchView
+                    android:id="@+id/simpleSearchView"
+                    android:background="@drawable/apk"
+                    android:layout_width="match_parent"
+                    android:iconifiedByDefault="false"
+                    android:queryHint="Search Here"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content" />
+                <com.google.android.material.progressindicator.LinearProgressIndicator
+                    android:id="@+id/pi_loading"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:indeterminate="true"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_region"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:padding="@dimen/project_small_gap" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_results"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="100dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:id="@+id/tv_noresult"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/apk"
+                    android:layout_margin="@dimen/project_small_gap"
+                    app:icon="@drawable/apk"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_height="wrap_content"
+                    android:text="@string/refresh"
+                    android:textAllCaps="false"
+                    android:visibility="gone"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/bt_refresh"/>
+            </LinearLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:baselineAlignBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:clickable="true"
+        app:elevation="2dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        ads:rippleColor="@color/purple_700"
+        ads:backgroundTint="@color/purple_200"
+        app:srcCompat="@drawable/apk" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

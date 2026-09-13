@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Refined Ebook palette: preserves the original pink/cyan identity with calmer surfaces and accessible contrast. -->
+    <color name="ebook_primary">#E91E63</color>
+    <color name="ebook_primary_dark">#AD1457</color>
+    <color name="ebook_accent">#26C6DA</color>
+    <color name="ebook_transparent">#00000000</color>
+    <color name="ebook_surface">#FFFFFBFD</color>
+    <color name="ebook_surface_variant">#FFFCE4EC</color>
+    <color name="ebook_on_surface">#FF2B1B22</color>
+    <color name="ebook_on_surface_muted">#FF706870</color>
+    <color name="ebook_on_primary">#FFFFFFFF</color>
+    <color name="ebook_outline">#FFCE93A9</color>
+    <color name="ebook_refresh_progress_1">#09AD17</color>
+    <color name="ebook_refresh_progress_2">#04680F</color>
+    <color name="ebook_refresh_progress_3">#D0170B</color>
+    <color name="ebook_slideCard">#FFFFF3F6</color>
+    <color name="ebook_biCard">#FFFFFFFF</color>
+    <color name="ebook_bCard">#FFFFF3F6</color>
+    <color name="ebook_black">#FF1C1B1F</color>
+    <color name="ebook_white">#FFFFFFFF</color>
+    <color name="ebook_next_n">#FFAD1457</color>
+    <color name="ebook_next_p">#FF4F7F70</color>
+    <color name="ebook_pre_n">#FF26C6DA</color>
+    <color name="ebook_pre_p">#FF00838F</color>
+    <color name="ebook_backgroundColor">#FFFFF8FA</color>
+    <color name="ebook_backgroundColor1">#FFFCE4EC</color>
+    <color name="ebook_colorOfStroke">#80E91E63</color>
+</resources>

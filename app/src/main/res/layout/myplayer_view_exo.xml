@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/project_media_background"
+    tools:context=".Player.MyExoPlayer">
+
+    <com.google.android.exoplayer2.ui.StyledPlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="110dp"
+        android:background="@null"
+        android:layout_marginEnd="20dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_width="24dp"
+        android:contentDescription="@string/project_action_image"
+        android:src="@drawable/rotate"
+        android:id="@+id/rotateexo"
+        android:importantForAccessibility="yes"
+        android:layout_height="24dp"
+        app:tint="@android:color/white"  android:minHeight="@dimen/project_touch_target" />
+</RelativeLayout>

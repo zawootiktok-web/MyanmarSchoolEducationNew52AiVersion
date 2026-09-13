@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/onlinelearning"
+        android:contentDescription="@string/app_name"
+        android:title="@string/online" />
+
+    <item
+        android:id="@+id/navigation_movies"
+        android:icon="@drawable/offlearn"
+        android:contentDescription="@string/app_name"
+        android:title="@string/offlinelearn" />
+    <item
+        android:id="@+id/navigation_series"
+        android:icon="@drawable/ic_category"
+        android:contentDescription="@string/app_name"
+        android:title="@string/main3" />
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/ic_category"
+        android:contentDescription="@string/app_name"
+        android:title="@string/settingnew" />
+
+</menu>

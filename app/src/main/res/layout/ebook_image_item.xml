@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="110dp" android:layout_height="160dp" android:layout_margin="@dimen/blog_meta_gap"><androidx.cardview.widget.CardView style="@style/CardView.Light" android:id="@+id/card" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="5dp" app:rippleColor="@color/primary" android:clickable="true"><LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"><ImageView android:id="@+id/image" android:layout_width="match_parent" android:layout_height="135dp" android:scaleType="centerCrop" />
+
+
+		<TextView android:layout_marginTop="135dp" android:layout_width="match_parent" android:layout_height="25dp" android:id="@+id/bname" android:textColor="@color/ebook_primary" android:layout_margin="@dimen/blog_meta_gap" android:textStyle="bold" android:maxLines="1" android:ellipsize="end" android:layout_below="@id/image" android:gravity="left|center" /></LinearLayout>
+
+	</androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.AD_ID" />
+
+    <application
+        android:name=".MyApplication"
+        android:hardwareAccelerated="true"
+        android:usesCleartextTraffic="false"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/apk"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:targetApi="31">
+
+        <!-- StartApp SDK Meta -->
+        <meta-data
+            android:name="com.startapp.sdk.APPLICATION_ID"
+            android:value="211390184" />
+        <meta-data
+            android:name="com.startapp.sdk.SPLASH_ENABLED"
+            android:value="false" />
+
+        <!-- AdMob Meta -->
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2481530783933136~9434688033" />
+
+        <!-- Declare all activities (unchanged except where noted) -->
+        <!-- ✅ Exported true where needed -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SplashActivity" android:exported="true" />
+        <activity android:name=".SplashScreenActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".ModernNavActivity" />
+        <activity android:name=".MainFragmentActivity" />
+        <activity android:name=".UtvMovies.UtvMainActivity" />
+        <activity android:name=".Mp3.Mp3Mp4MainActivity" />
+        <activity android:name=".NewBookActivity" />
+        <activity android:name=".MyanmarSpelling.activity.MmSpellingMainActivity" />
+        <activity android:name=".MyanmarSpelling.activity.MmSpellingDetailActivity" />
+        <activity android:name=".Internetcheck"
+            android:noHistory="true"
+            android:screenOrientation="fullSensor"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MmToEnglishName.MmToEngActivity" />
+        <activity android:name=".Main" />
+        <activity android:name=".QandAnswer.NewKnoledgeActivity" android:exported="true" />
+        <activity android:name=".MmToEnglishName.BasicGrammarViewer" />
+        <activity android:name=".STeachingBook" />
+        <activity android:name=".Dictionary.OnlineDictionary" />
+        <activity android:name=".Dictionary.NewDictionaryActivity" />
+        <activity android:name=".Dictionary.DictionaryActivityCategories" />
+        <activity android:name=".Dictionary.NewDictionaryActivity2" />
+        <activity android:name=".Dictionary.DictionaryActivityCategories2" />
+        <activity android:name=".Dictionary.DictionaryDetailActivity" />
+        <activity android:name=".Dictionary.NewProverbsActivity" />
+        <activity android:name=".Dictionary.ProverbsActivityCategories" />
+        <activity android:name=".examresults.ExamMainActivity" />
+        <activity android:name=".Lesson.MainActivityNew" />
+        <activity android:name=".Viewer.ViewerActivity" />
+        <activity android:name=".Viewer.VideoViewerActivity" />
+        <activity android:name=".Viewer.VideoViewer"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:hardwareAccelerated="true"
+            android:supportsPictureInPicture="true"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Cinema.MoviesDetailActivity" />
+        <activity android:name=".Main3" />
+        <activity android:name=".Mp3.Mp3MainActivity" />
+        <activity android:name=".BookShopActivity" />
+        <activity android:name=".Mp3.AudioLessonActivity" />
+        <activity android:name=".Mp4.NewVideoActivity" />
+        <activity android:name=".Mp3.NewAudioActivity" />
+        <activity android:name=".Mp3.AudioDetailActivity" />
+        <activity android:name=".QandAnswer.QandAActivity" />
+        <activity android:name=".QandAnswer.QAKg" />
+        <activity android:name=".Cinema.CinemaLessonActivity" />
+        <activity android:name=".Cinema.CinemaLessonActivityCategories" />
+        <activity android:name=".Mp4.VideoMainActivity" />
+        <activity android:name=".Mp4.VideoDetailActivity" />
+        <activity android:name=".TeacherGuide" />
+        <activity android:name=".TextBook" />
+        <activity android:name=".MainActivityAds" />
+        <activity android:name=".Main1" android:exported="true" />
+        <activity android:name=".Main2" />
+        <activity android:name=".Main5" />
+        <activity android:name=".Grammar.SpecialGrammarActivity" />
+        <activity android:name=".BookActivityCategories" android:exported="true" />
+        <activity android:name=".AdsActivity" /> <!-- ✅ Keep only one -->
+        <activity android:name=".Mp4.VideoLessonActivityCategories" />
+        <activity android:name=".Mp4.VideoLessonActivity" />
+        <activity android:name=".BookViewerActivity" />
+        <activity android:name=".BookDetailActivity" />
+        <activity android:name=".TextBookAll" />
+        <activity android:name=".LessonActivity" />
+        <activity android:name=".Lesson.Grade2Activity" />
+        <activity android:name=".Lesson.Grade3Activity" />
+        <activity android:name=".Lesson.Grade4Activity" />
+        <activity android:name=".Lesson.Grade5Activity" />
+        <activity android:name=".Lesson.Grade6Activity" />
+        <activity android:name=".Lesson.Grade7Activity" />
+        <activity android:name=".Lesson.Grade8Activity" />
+        <activity android:name=".Lesson.Grade9Activity" />
+        <activity android:name=".Lesson.Grade10Activity" />
+        <activity android:name=".Lesson.Grade11Activity" />
+        <activity android:name=".Lesson.Grade12Activity" />
+        <activity android:name=".Lesson.KgActivity" />
+        <activity android:name=".TGuideActivity" />
+        <activity android:name=".Lesson.KnowledgeActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".Lesson.TalentActivity" />
+        <activity android:name=".DonateBook.DonateActivity" />
+        <activity android:name=".DonateBook.DonateBookActivity" />
+        <activity android:name=".DonateBook.DBookActivityCategories" />
+        <activity android:name=".UnitConverter.UnitConverterActivity" />
+        <activity android:name=".AgeCalculatorActivity" />
+        <activity android:name=".Grammar.SpecialBookDetailActivity" />
+        <activity android:name=".Grammar.SpecialGrammarActivity2" />
+        <activity android:name=".Grammar.SpecialGrammarActivity3" />
+        <activity android:name=".Grammar.SpecialGrammarActivity4" />
+        <activity android:name=".ImageDetailActivity" />
+        <activity android:name=".ImageViewerActivity" />
+        <activity android:name=".Mp4.VideoOpenActivity" />
+        <activity android:name=".Mp3.AudioOpenActivity" />
+        <activity android:name=".Mp3.PlayListActivity" android:theme="@style/Theme.UserDialog" />
+        <activity android:name=".Mp3.AudioListViewActivity" />
+        <activity android:name=".Player.VlcPlayer" android:screenOrientation="landscape" />
+        <activity android:name=".UtvMovies.UtvFrontActivity"
+            android:banner="@mipmap/ic_launcher"
+            android:exported="true" />
+        <activity android:name=".UtvMovies.UtvItemChoiceActivity" android:exported="false" />
+        <activity android:name=".UtvMovies.UtvPlayerActivity" android:screenOrientation="landscape" android:exported="false" />
+        <activity android:name=".UtvMovies.UtvVlcPlayer" android:screenOrientation="landscape" android:exported="false" />
+        <activity android:name=".WelcomeActivity2" />
+        <activity android:name=".Player.VideoExoPlayer" android:screenOrientation="landscape" android:exported="false" />
+        <activity android:name=".Player.MyExoPlayer" android:screenOrientation="landscape" android:exported="false" />
+        <activity android:name=".Lesson.LessonPlanActivity" />
+        <activity android:name=".Lesson.StoryActivity" />
+        <activity android:name=".Lesson.MmEssayActivity" />
+        <activity android:name=".Lesson.EngEssayActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".PrivacyPolicy" />
+
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookMainActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookMainActivity1" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookTvCategories" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookTvActivityCategories" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookIndexActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookBookActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookDetailActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookTvPlayer" android:screenOrientation="landscape" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookPlayListActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookBtViewerActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookAudioListViewActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookBookViewerActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookReaderActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookBt1MainActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookBt2MainActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookBt3MainActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookBt4MainActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookBt5MainActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookBt6MainActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookBt7MainActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookBt8MainActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookSearchViewerActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookSearchActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookAudioActivityCategories" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookBookActivityCategories" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookPdfBookActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookAudioBookActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookAudioBtBookActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookAudioBookActivity2" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookAudioPlayer" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookEBookDetailActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookEBookActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookBDActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookWriterActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookCategoryActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookGalleryActivity" />
+        <activity android:name="com.mmschooledu.EbookAudioShelf.EbookPdfDetailActivity" />
+
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name=".examresults.BaseActivity" />
+        <activity android:name=".examresults.CitiesActivity" />
+        <activity android:name=".examresults.BookViewerActivity" android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".Story.activity.StoryMainActivity" />
+        <activity android:name=".Story.activity.StoryDetailActivity" />
+        <activity android:name=".MyanmarSpelling.fragment.AdvanceActivity" />
+        <activity android:name=".MyanmarSpelling.fragment.GameActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|fontScale" />
+
+        <receiver
+            android:name="com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- ✅ Only ONE FileProvider kept -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+</manifest>

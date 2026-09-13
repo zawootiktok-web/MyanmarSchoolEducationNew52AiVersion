@@ -1,0 +1,82 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/Search"/>
+    <item
+        android:id="@+id/menu_font"
+        android:icon="@drawable/refresh"
+        app:showAsAction="always"
+        android:title="@string/Font"/>
+
+
+
+
+    <item
+        android:id="@+id/newlessonplan"
+
+        android:icon="@drawable/pdf"
+        android:title="@string/all_lessonplan"/>
+
+    <item
+        android:id="@+id/kg"
+
+        android:icon="@drawable/pdf"
+        android:title="@string/kg_lessonplan"/>
+    <item
+        android:id="@+id/grade1"
+
+        android:icon="@drawable/pdf"
+        android:title="@string/g1_lessonplan"/>
+    <item
+        android:id="@+id/grade2"
+
+        android:icon="@drawable/pdf"
+        android:title="@string/g2_lessonplan"/>
+    <item
+    android:id="@+id/grade3"
+
+    android:icon="@drawable/pdf"
+    android:title="@string/g3_lessonplan"/> <item
+    android:id="@+id/grade4"
+
+    android:icon="@drawable/pdf"
+    android:title="@string/g4_lessonplan"/> <item
+    android:id="@+id/grade5"
+
+    android:icon="@drawable/pdf"
+    android:title="@string/g5_lessonplan"/> <item
+    android:id="@+id/grade6"
+
+    android:icon="@drawable/pdf"
+    android:title="@string/g6_lessonplan"/> <item
+    android:id="@+id/grade7"
+
+    android:icon="@drawable/pdf"
+    android:title="@string/g7_lessonplan"/> <item
+    android:id="@+id/grade8"
+
+    android:icon="@drawable/pdf"
+    android:title="@string/g8_lessonplan"/> <item
+    android:id="@+id/grade9"
+
+    android:icon="@drawable/pdf"
+    android:title="@string/g9_lessonplan"/> <item
+    android:id="@+id/grade10"
+
+    android:icon="@drawable/pdf"
+    android:title="@string/g10_lessonplan"/> <item
+    android:id="@+id/grade11"
+
+    android:icon="@drawable/pdf"
+    android:title="@string/g11_lessonplan"/> <item
+    android:id="@+id/grade12"
+
+    android:icon="@drawable/pdf"
+    android:title="@string/g12_lessonplan"/>
+
+</menu>

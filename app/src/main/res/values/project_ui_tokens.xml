@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="project_screen_padding">16dp</dimen>
+    <dimen name="project_section_spacing">24dp</dimen>
+    <dimen name="project_item_spacing">12dp</dimen>
+    <dimen name="project_small_gap">8dp</dimen>
+    <dimen name="project_card_padding">16dp</dimen>
+    <dimen name="project_card_radius">12dp</dimen>
+    <dimen name="project_card_elevation">2dp</dimen>
+    <dimen name="project_touch_target">48dp</dimen>
+    <dimen name="project_text_title">20sp</dimen>
+    <dimen name="project_text_body">16sp</dimen>
+    <dimen name="project_text_meta">14sp</dimen>
+</resources>

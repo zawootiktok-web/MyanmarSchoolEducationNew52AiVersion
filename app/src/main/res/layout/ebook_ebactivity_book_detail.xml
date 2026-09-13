@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/ebook_background"><com.google.android.material.appbar.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/nnl_appbar"><androidx.appcompat.widget.Toolbar android:id="@+id/nnl_toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:theme="@style/ThemeOverlay.AppCompat.Dark" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" android:elevation="5dp" />
+
+	</com.google.android.material.appbar.AppBarLayout>
+
+	<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@+id/swipeRefreshLayout" android:layout_marginTop="?attr/actionBarSize" android:layout_width="match_parent" android:layout_height="match_parent"><androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_alignParentBottom="true"><LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="top|center" android:descendantFocusability="beforeDescendants" android:focusableInTouchMode="true"><FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"><RelativeLayout android:layout_width="match_parent" android:layout_height="200dp"><ImageView android:layout_width="match_parent" android:layout_height="200dp" android:id="@+id/title_bg_img" android:scaleType="centerCrop" />
+
+						<View android:layout_width="match_parent" android:layout_height="match_parent" android:background="#9A04680F" />
+
+					</RelativeLayout>
+
+					<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="190dp" android:layout_marginTop="75dp"><androidx.cardview.widget.CardView style="@style/CardView.Light" android:layout_width="125dp" android:layout_height="160dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="10dp" app:cardBackgroundColor="@color/accent" android:layout_marginLeft="10dp"><ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/title_img" android:scaleType="centerCrop" />
+
+						</androidx.cardview.widget.CardView>
+
+						<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp"><LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="left|center"><ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ebook_ic_book" />
+
+								<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="bname" android:id="@+id/bname" android:gravity="left|center" android:textColor="@color/ebook_white" android:textStyle="bold" />
+
+							</LinearLayout>
+
+							<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="left|center"><ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ebook_ic_view" />
+
+								<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/bview" android:gravity="left|center" android:textColor="@color/ebook_white" />
+
+							</LinearLayout>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</FrameLayout>
+
+				<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:ellipsize="marquee" android:id="@+id/support_tv" android:textColor="@color/ebook_white" android:background="@drawable/ebook_position_bg" android:padding="@dimen/blog_card_padding_tight" android:singleLine="true" android:layout_marginTop="@dimen/blog_small_gap" />
+
+				<androidx.cardview.widget.CardView style="@style/CardView.Light" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="10dp" android:id="@+id/author_card" app:cardBackgroundColor="@color/bCard" android:layout_margin="@dimen/blog_item_spacing"><RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"><Button android:layout_width="90dp" android:layout_height="45dp" android:text="@string/next" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_margin="@dimen/blog_meta_gap" android:layout_alignParentRight="true" android:id="@+id/author_bt" android:background="@drawable/ebook_sa_bg" android:textColor="@color/ebook_white" />
+
+						<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="100dp" android:layout_marginLeft="50dp" android:gravity="left|center" android:text="wname" android:id="@+id/wname" android:textColor="@color/ebook_white" android:minHeight="50dp" />
+
+						<ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ebook_ic_person" />
+
+						<View android:layout_width="2dp" android:layout_height="wrap_content" android:maxHeight="50dp" android:background="@color/primary" android:layout_marginLeft="42dp" android:alpha="0.8" />
+
+					</RelativeLayout>
+
+				</androidx.cardview.widget.CardView>
+
+				<androidx.cardview.widget.CardView style="@style/CardView.Light" android:layout_width="match_parent" android:layout_height="50dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="10dp" android:id="@+id/info_card" app:cardBackgroundColor="@color/bCard" android:layout_margin="@dimen/blog_item_spacing"><LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="45dp" android:layout_margin="@dimen/blog_meta_gap" android:gravity="center"><ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ebook_ic_book" />
+
+						<View android:layout_width="2dp" android:layout_height="match_parent" android:background="@color/accent" android:layout_marginLeft="2dp" android:alpha="0.8" />
+
+						<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/binfo" android:text="" android:gravity="left|center" android:ellipsize="marquee" android:singleLine="true" android:layout_marginLeft="3dp" android:textColor="@color/ebook_white" />
+
+					</LinearLayout>
+
+				</androidx.cardview.widget.CardView>
+
+				<androidx.cardview.widget.CardView style="@style/CardView.Light" android:layout_width="match_parent" android:layout_height="50dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="10dp" android:id="@+id/cat_card" app:cardBackgroundColor="@color/bCard" android:layout_margin="@dimen/blog_item_spacing"><LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="45dp" android:layout_margin="@dimen/blog_meta_gap" android:gravity="center"><ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ebook_ic_category" />
+
+						<View android:layout_width="2dp" android:layout_height="match_parent" android:background="@color/accent" android:layout_marginLeft="2dp" android:alpha="0.8" />
+
+						<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/bcat" android:text="" android:gravity="left|center" android:layout_marginLeft="3dp" android:ellipsize="marquee" android:singleLine="true" android:textColor="@color/ebook_white" />
+
+					</LinearLayout>
+
+				</androidx.cardview.widget.CardView>
+				<androidx.cardview.widget.CardView style="@style/CardView.Light" android:layout_width="match_parent" android:layout_height="50dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="10dp" android:id="@+id/view_card" app:cardBackgroundColor="@color/bCard" android:layout_margin="@dimen/blog_item_spacing"><LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="45dp" android:layout_margin="@dimen/blog_meta_gap" android:gravity="center"><ImageView android:layout_width="40dp" android:layout_height="40dp" android:id="@+id/view_iv" android:src="@drawable/ebook_book" />
+
+						<View android:layout_width="2dp" android:layout_height="match_parent" android:background="@color/primary" android:layout_marginLeft="2dp" android:alpha="0.8" />
+
+						<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/download_tv" android:text="@string/view" android:gravity="left|center" android:layout_marginLeft="3dp" android:textColor="@color/ebook_white" />
+
+					</LinearLayout>
+
+				</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+				<androidx.cardview.widget.CardView style="@style/CardView.Light" android:layout_width="match_parent" android:layout_height="50dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="10dp" android:id="@+id/download_card" app:cardBackgroundColor="@color/bCard" android:layout_margin="@dimen/blog_item_spacing"><LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="45dp" android:layout_margin="@dimen/blog_meta_gap" android:gravity="center"><ImageView android:layout_width="40dp" android:layout_height="40dp" android:id="@+id/download_iv" android:src="@drawable/ebook_ic_download" />
+
+						<View android:layout_width="2dp" android:layout_height="match_parent" android:background="@color/primary" android:layout_marginLeft="2dp" android:alpha="0.8" />
+
+						<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/download_tv" android:text="@string/download" android:gravity="left|center" android:layout_marginLeft="3dp" android:textColor="@color/ebook_white" />
+
+					</LinearLayout>
+
+				</androidx.cardview.widget.CardView>
+
+				<androidx.cardview.widget.CardView style="@style/CardView.Light" android:layout_width="match_parent" android:layout_height="50dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="10dp" android:id="@+id/open_card" app:cardBackgroundColor="@color/bCard" android:layout_margin="@dimen/blog_item_spacing"><LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="45dp" android:layout_margin="@dimen/blog_meta_gap" android:gravity="center"><ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ebook_ic_download" />
+
+						<View android:layout_width="2dp" android:layout_height="match_parent" android:background="@color/primary" android:layout_marginLeft="2dp" android:alpha="0.8" />
+
+						<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/downloadothers" android:gravity="left|center" android:layout_marginLeft="3dp" android:textColor="@color/ebook_white" />
+
+					</LinearLayout>
+
+				</androidx.cardview.widget.CardView>
+
+
+				<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center"><ImageView android:layout_width="30dp" android:layout_height="30dp" android:text="Text" android:src="@drawable/ebook_ic_more" />
+
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/related" android:gravity="center" android:textColor="@color/primary" />
+
+				</LinearLayout>
+
+				<View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:background="@color/primary" />
+
+				<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"><androidx.recyclerview.widget.RecyclerView android:id="@+id/recent_rv" android:padding="@dimen/blog_card_padding_tight" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+
+				</RelativeLayout>
+
+				<WebView android:layout_width="match_parent" android:layout_height="0dp" android:id="@+id/wv" />
+
+
+
+			</LinearLayout>
+
+
+
+
+		</androidx.core.widget.NestedScrollView>
+
+	</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+	
+	
+	<com.google.android.gms.ads.AdView android:id="@+id/ad_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_alignParentBottom="true" app:adSize="BANNER" app:adUnitId="@string/banner_ad_unit_id" android:layout_gravity="bottom" android:paddingBottom="0dp" />
+	
+	
+
+
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="1dp" android:layout_height="1dp" android:visibility="gone" app:adSize="BANNER" app:adUnitId="@string/banner_ad_unit_id" />
+    <TextView android:id="@+id/view_tv" android:layout_width="1dp" android:layout_height="1dp" android:visibility="gone" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

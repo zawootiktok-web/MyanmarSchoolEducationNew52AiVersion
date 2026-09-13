@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<group android:checkableBehavior="single">
+		
+		<item
+			android:id="@+id/menu_main"
+			android:checked="true"
+			android:title="Home"/>
+	
+		
+
+		<item android:title="Audios "
+			android:checkableBehavior="none">
+
+			<menu>
+
+				<item
+					android:id="@+id/button1"
+
+					android:icon="@drawable/ebook_test"
+					android:title="Dhama"/>
+
+
+				<item
+					android:id="@+id/button2"
+
+					android:icon="@drawable/ebook_test"
+					android:title="Audiobooks"/>
+
+   <item
+	   android:id="@+id/button3"
+
+					android:icon="@drawable/ebook_test"
+					android:title="Music"/>
+
+				<item
+					android:id="@+id/button4"
+
+					android:icon="@drawable/ebook_test"
+					android:title="Bookshelf (PDF)"/>
+
+
+
+
+
+		<!--		<item
+					android:id="@+id/partical"
+
+					android:icon="@drawable/ebook_ic_book1"
+					android:title="Survey Partical Exprience"/>
+
+				<item
+					android:id="@+id/note"
+
+					android:icon="@drawable/ebook_ic_book1"
+					android:title="Survey Useful Short Notes"/>
+
+!-->
+
+
+
+			</menu>
+
+		</item>
+
+		
+
+
+			
+
+	</group>
+
+
+
+	<item android:title="Setting"
+		android:checkableBehavior="none">
+		<menu>
+
+
+			<group android:id="@+id/menu_bottom" android:checkableBehavior="none"> 
+
+				<item
+					android:id="@+id/menu_download"
+					android:icon="@drawable/ebook_download"
+					android:title="Download" />
+
+				<item
+					android:id="@+id/navigation_item_contact"
+					android:icon="@drawable/ebook_mail"
+					android:title="Contact Mail"/>
+
+				<item
+					android:id="@+id/navigation_item_share"
+					android:icon="@drawable/ebook_facebook"
+					android:title="Share"/>
+
+
+				<item
+					android:id="@+id/menu_about"
+					android:icon="@drawable/ebook_info"
+					android:title="About"/>
+
+
+			
+
+
+			</group>
+
+		</menu>
+
+	</item>
+
+
+
+
+</menu>
+
+

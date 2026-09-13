@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="0dp"><androidx.cardview.widget.CardView style="@style/CardView.Light" android:layout_width="match_parent" android:layout_height="50dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="10dp" android:id="@+id/cat_card" app:cardBackgroundColor="@color/bCard" android:layout_margin="@dimen/blog_item_spacing"><RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"><TextView android:textSize="@dimen/blog_text_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Text" android:textStyle="bold" android:id="@+id/bcount_tv" android:layout_alignParentRight="true" android:textColor="@color/primary" android:gravity="center" android:layout_margin="@dimen/blog_meta_gap" android:minHeight="40dp" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_marginRight="8dp" />
+
+			<LinearLayout android:layout_toLeftOf="@id/bcount_tv" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="45dp" android:gravity="center"><ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ebook_ic_category" />
+
+				<View android:layout_width="2dp" android:layout_height="match_parent" android:background="@color/accent" android:layout_marginLeft="2dp" android:alpha="0.8" />
+
+				<TextView android:textSize="@dimen/blog_text_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/bcat_tv" android:text="" android:gravity="left|center" android:layout_marginLeft="3dp" android:ellipsize="marquee" android:singleLine="true" android:textColor="@color/ebook_white" />
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+	</androidx.cardview.widget.CardView>
+
+</LinearLayout>

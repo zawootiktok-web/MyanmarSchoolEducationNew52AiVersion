@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    android:padding="0dp"
+    >
+
+
+
+
+
+    <!-- ป๊อปอัพ -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/pop_up"
+        android:gravity="center"
+        android:padding="16dp"
+        >
+
+        <!-- ชื่อป๊อปอัพ -->
+        <ImageButton
+            android:id="@+id/soundbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:background="@null"
+            android:contentDescription="@string/sound_btn"
+            android:src="@drawable/soundopen"  android:minHeight="@dimen/project_touch_target" />
+
+        <!-- ปุ่มรีเซ็ต -->
+        <ImageButton
+            android:id="@+id/contactbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/contact"
+            android:contentDescription="@string/contact_btn" android:minHeight="@dimen/project_touch_target" />
+    </LinearLayout>
+</LinearLayout>

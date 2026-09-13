@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@color/blue_colorAccent"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/slide_1_img_id"
+        android:layout_width="356dp"
+        android:layout_height="343dp"
+        android:src="@drawable/ads" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="စာအုပ်တချို့ကို  skm (taung paw tar) App မှ လှူဒါန်း​ပေးထားပါသည်၊App Download Button ကိုနှိပ်ပြီး Down ယူအသုံးပြုနိုင်ပါသည်"
+        android:textSize="20sp"
+        android:id="@+id/marqueeText"
+android:textColor="@color/backgroundColor"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        />
+
+
+
+</LinearLayout>

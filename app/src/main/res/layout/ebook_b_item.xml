@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="top|center"><androidx.cardview.widget.CardView style="@style/CardView.Light" android:id="@+id/card" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground" app:cardBackgroundColor="@color/biCard" app:cardCornerRadius="15dp" android:clickable="true" android:layout_margin="@dimen/blog_small_gap"><LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/blog_meta_gap"><androidx.cardview.widget.CardView style="@style/CardView.Light" android:layout_width="110dp" android:layout_height="140dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="5dp" app:cardBackgroundColor="@color/ebook_primary" android:clickable="true"><ImageView android:id="@+id/thumbnail_iv" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+
+			</androidx.cardview.widget.CardView>
+
+			<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="140dp"><TextView android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/bname_tv" android:textColor="@color/ebook_primary" android:textStyle="bold" android:gravity="left|center" />
+
+				<TextView android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/wname_tv" android:textColor="@color/ebook_primary" android:gravity="left|center" />
+
+				<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/blog_meta_gap" android:gravity="bottom"><TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Text" android:id="@+id/info_tv" android:layout_weight="1.0" android:gravity="top|left" android:textColor="@color/ebook_primary" android:typeface="serif" />
+
+					<TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Text" android:id="@+id/view_tv" android:layout_weight="1.0" android:gravity="top|right" android:textColor="@color/ebook_primary" android:typeface="monospace" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</androidx.cardview.widget.CardView>
+
+</LinearLayout>

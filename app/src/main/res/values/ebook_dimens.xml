@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<dimen name="ebook_spacing_large">15.0dip</dimen>
+	<dimen name="ebook_spacing_mlarge">20.0dip</dimen>
+	
+	
+	<!-- Submit Button. -->
+    <dimen name="ebook_marginTopForButton">16dp</dimen>
+    <dimen name="ebook_paddingForButton">5dp</dimen>
+    <dimen name="ebook_widthOfStroke">1dp</dimen>
+    <dimen name="ebook_radiusOfButton">10dp</dimen>
+	
+	
+</resources>

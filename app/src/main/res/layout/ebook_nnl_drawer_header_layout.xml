@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="230dp" android:theme="@style/ThemeOverlay.AppCompat.Light" android:background="@color/primary"><ImageView android:layout_height="match_parent" android:layout_width="match_parent" android:scaleType="centerCrop" android:src="@drawable/ebook_test" android:id="@+id/nnl_ivDrawerHeader" android:layout_gravity="center_horizontal|fill_vertical" android:layout_marginStart="0dp" />
+
+	<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" android:layout_gravity="bottom" android:gravity="bottom"><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Myanmar Audio Books" android:textColor="#FFBAFF99" android:id="@+id/nnl_tvDrawerHeader" android:gravity="center" android:textSize="24sp" android:textStyle="bold" android:typeface="serif" android:shadowColor="@color/ebook_black" android:shadowRadius="3" android:paddingBottom="2dp" />
+
+		<View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:background="@color/primary" />
+
+		<View android:layout_height="1dp" android:layout_width="match_parent" android:layout_marginTop="4dp" android:background="@color/accent" android:layout_marginBottom="@dimen/blog_small_gap" />
+
+	</LinearLayout>
+
+</FrameLayout>

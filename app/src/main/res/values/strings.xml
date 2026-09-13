@@ -1,0 +1,346 @@
+<resources>
+	<string name="app_name">MyanmarSchoolEducation</string>
+	<string name="action_settings">Settings</string>
+
+	<string name="text01new">Myanmar school education</string>
+	<string name="text02new">Myanmar must improve education</string>
+	<string name="greetingText">What would you like to learn today?</string>
+	<string name="textnew">School Books</string>
+	<string name="text2new">Teacher Guide </string>
+	<string name="text3new">Lessons</string>
+	<string name="text4new">Special Teaching </string>
+	<string name="text5new">Questions Answers</string>
+	<string name="text6new">Mp3 and Mp4 </string>
+	<string name="text7new">MSE Ebook Libary</string>
+	<string name="text8new">Education Cinema</string>
+
+	<string name="text9new">Useful Tools</string>
+	<string name="text10new">Useful News</string>
+
+	<string name="app_name_mmspelling">မြနမာ့စာလုံး​ပေါင်း သတ်ပုံကျမ်း</string>
+
+	<string name="about">About App</string>
+
+	<string name="about_content">This Myanmar School Education App is an app that supports students and teachers who are studying education with technical support.\nWhere is the goal? Ne2 books are written for free and easy reading,\n so that you can learn the lessons of the sciences you want to learn quickly in a short time.
+	</string>
+	<string name="contact_content">App author\n Programming Developer\nEmail-onlinemyanmarschool@gmail.com\nIf you have any problems, you can contact the App author.</string>
+	<string name="exit_message">If you like this app as a friend, please rate it 5Star🌟 on PlaysStore.. bro.\nThank you.. bro.</string>
+
+	<string name="hello_world">Donate Books For All!</string>
+	<string name="btn_en">English</string>
+	<string name="btn_my">Myanmar</string>
+	<string name="btn_ko">Koria</string>
+
+
+
+
+	<string name="more">ပိုမို၍</string>
+	<string name="next">နောက်ထပ်</string>
+	<string name="pre">​​ရှေ့သို့</string>
+	<string name="choose">​ရွေးရန်</string>
+	<string name="recent">မကြာ​​သေးခင်က တင်ထား​​သော</string>
+	<string name="knowledge">ရသ</string>
+	<string name="novel">ဝတ္ထု</string>
+	<string name="translate">ဘာသာ​ပပြန်</string>
+	<string name="history">သမိုင်း</string>
+
+	<string name="category">အမျိုးအစား</string>
+	<string name="ads">​​ကြော်ငြာကြည့်ရင်းလှူမယ်</string>
+	<string name="report">ရီပို့တင်မည်</string>
+	<string name="writer">စာ​ရေးဆရာများ</string>
+	<string name="library">စာ​ကြည့်တိုက်တွင်လှူထား​​သောစာအုပ်များ
+	</string>
+	<string name="allbooks">စာအုပ်အားလုံး</string>
+	<string name="welcome">​Online Ebook Libary မှ ​နွေး​ထွေးစွာဆိုပါ၏....</string>
+
+
+	<string name="view">တိုက်ရိုက်ဖတ်မည်</string>
+	<string name="download">​​ဒေါင်းမည်</string>
+	<string name="downloaded">Downloaded</string>
+	<string name="downloadnow">အခု ​ဒေါင်းမည်</string>
+	<string name="downloadothers">အခြားအရာနဲ့ downမည်</string>
+	<string name="downloadcopy">လင့်ကူးယူရန်</string>
+
+	<string name="share">မျှ​​ဝေရန်</string>
+	<string name="search">ရှာ​ဖွေရန်</string>
+
+	<string name="home">ပင်မစာမျက်နှာ</string>
+	<string name="noti">အသိ​​ပေးချက်</string>
+	<string name="fbpage">​Online Ebook Libary facebook page</string>
+
+	<string name="developer">​ဆော့ဝဲလ်ဖန်တီးသူ facebook account</string>
+	<string name="contact">ဆော့ဝဲလ်​ရေးသူထံ</string>
+
+	<string name="report_message">မင်္ဂလာပါ စာဖတ်မိတ်​ဆွ\n မိတ်​​ဆွေအ​နေနဲ့အခက်အခက်အခဲကြုံ​တွေ့​နေရပါသလား။\n ဘယ်လို​ပြဿနာပင်​ဖြစ်​စေ App ဖန်တီးသူထံ ရီပို့(report)တင်​​ခြင်းဖြင့် ကူညီနိုင်ပါသည်။\nဆက်သွယ်ရန်\n
+		ဖုန်း : +959 -------\n
+		email : onlineebooklibary@gmail.com\n
+		facebook : https://www.facebook.com/\nကို ဆက်သွယ်နိုင်ပါသည်။\​​ကျေးဇူးတင်ပါသည်။</string>
+
+	<string name="internet_message">မင်္ဂလာ​ပါ\n အင်တာနက်ဆက်သွယ်မှု မရှိ​​သေးပါ။ အင်တာနက်သွယ်​ပြီးမှ ​ပြန်လည်စမ်းသပ်ကြည့်ပါ။\n​ကျေးဇူးတင်ပါသည်။</string>
+
+
+	<string name="related">​နောက်ထပ်စာအုပ်​ကောင်းများ</string>
+	<string name="sorrypost">မည်သည့်အရာမှ မ​တွေ့ရှိပါ</string>
+
+	<string name="support_content">    ကျွန်ုပ်တို့ စာအုပ်App​ ​​လေး​ရေရှည်ရပ်တည်တံ့နိုင်​​ရေးအတွက် မိမိတို့တတ်နိုင်သ​​လောက် ပါဝင်လှူဒါန်းနိုင်ပါသည်။ ​စာအုပ်   Link များလှူဒါန်း၍​သော်လည်း​ကောင်း၊ ​​ငွေအားဖြင့်သာ်လည်း​ကောင်း တတ်နိုင်သ​​လောက်ပါဝင်လှူဒါန်းဖို့ နှိုး​ဆော်တိုက်တွန်းအပ်ပါသည်။.....</string>
+
+	<string name="donate_title">လှူဒါန်းဖို့</string>
+	<string name="donate_content">မင်္ဂလာပါ စာဖတ်မိတ်​​ဆွေ\n မိတ်​​ဆွေအ​​နေနဲ့ကျွန်ုပ်တို့ \'​Online Ebook Libary\' စာ​ကြည့်တိုက်Appအတွက်​ဖြစ်​စေ၊ Pdf Ebook များဝယ်ယူတင်​ပေးနိုင်ရန်ဖြစ်​စေအလှူ​​ငွေအနည်းအများမဆို ပါဝင်လှူဒါန်းနိုင်ပါသည်။ လှူဒါန်းဒါနပြုရန်အတွက် ကျွန်ုပ်တို့ရဲ့
+		Facebook Page (ဒါမှမဟုတ်) Facebook accountက​​နေပြီး​တော့ဆက်သွယ် လှူဒါန်းပါ...ခမျာ။\nလှူဒါန်းမှုအတွက် မွန်မွန်မြတ်​သော သဒ္ဓါတရား​ကြောင့်ဤဘဝတွင်သာမက ​နောင်ဘဝများစွာတိုင် ချမ်းသာသုခနဲ့ ပြီးပြည့်စုံနိုင်ကြပါ​စေ...ခမျာ။</string>
+
+
+
+	<string name="home2">Home</string>
+	<string name="all_pdf">All Pdf</string>
+	<string name="english">English Books</string>
+	<string name="englishgrammar">English Grammar Books</string>
+	<string name="englishvocublary">English Vocabulary</string>
+	<string name="phonics">PHONICS</string>
+
+	<string name="request_permission">Request Permission</string>
+
+	<string name="white">White</string>
+
+
+
+	<!--  About US & App Description & Contact US  -->
+	<string name="about_us">About Us</string>
+	<string name="rate_us">Rate Us</string>
+	<string name="app_description">An easy to use Android application to convert your files to PDF.</string>
+	<string name="version">Version : </string>
+	<string name="developer2">Developer</string>
+	<string name="github_repo">Github Repository</string>
+	<string name="view_contributors">View Contributors</string>
+	<string name="privacy_policy">Privacy Policy</string>
+	<string name="mail">Send a Mail</string>
+	<string name="join_slack">Join us on Slack</string>
+	<string name="website">Visit our Website</string>
+	<string name="license">License</string>
+	<string name="playstore">Rate us on Playstore</string>
+
+
+	<!-- Rate us strings -->
+	<string name="rate_positive">Rate now</string>
+	<string name="rate_negative">No, thanks</string>
+	<string name="rate_title">Rate us!</string>
+	<string name="rate_dialog_text">If you enjoy this app, please take a moment to rate this app. It won\'t take more than a minute. Thank you for your support! :)</string>
+	<string name="rate_us_never">Never</string>
+	<string name="error_occurred">Error Occurred</string>
+
+	<string name="action_share">Share</string>
+
+
+	<string name="cover">cover</string>
+	<string name="title">title</string>
+	<string name="_00_00_00">00:00:00</string>
+	<string name="_00_00_00_">00:00:00</string>
+	<string name="btnrepet">btnrepet</string>
+	<string name="btnprev">btnprev</string>
+	<string name="btnplay">btnplay</string>
+	<string name="btnnext">btnnext</string>
+	<string name="btndownload">btnDownload</string>
+
+
+	<string name="audio">You tube Audio Lessons</string>
+
+
+	<string name="close_button_description">close</string>
+
+
+	<string name="all_post">All Post</string>
+	<string name="all_lesson">All Lessons</string>
+	<string name="Lesson_Plans">LessonPlans</string>
+	<string name="Question_Plan">QuestionPlan</string>
+	<string name="Item_TypeCPD">ItemTypeCPD</string>
+	<string name="Teacher_Guide">TeacherGuide</string>
+	<string name="English_Essays">EnglishEssays</string>
+	<string name="Myanmar_Essays">MyanmarEssays</string>
+	<string name="Myanmar">Myanmar</string>
+	<string name="English">English</string>
+	<string name="Math">Math</string>
+	<string name="Science">Science</string>
+	<string name="Moral">Moral</string>
+	<string name="Life_Skill">Life Skill</string>
+	<string name="Social">Social</string>
+	<string name="Physcial">Physcial</string>
+	<string name="Art">Art</string>
+	<string name="Music">Music</string>
+	<string name="Geography">Geography</string>
+
+
+	<string name="Search">Search</string>
+	<string name="Font">Font</string>
+	<string name="Sell_Books">SellBooks</string>
+	<string name="BookShops">BookShops</string>
+	<string name="OthersBooks">OthersBooks</string>
+	<string name="Kg">Kg</string>
+	<string name="Grade1">Grade(1)</string>
+	<string name="Grade2">Grade(2)</string>
+	<string name="Grade3">Grade(3)</string>
+	<string name="Grade4">Grade(4)</string>
+	<string name="Grade5">Grade(5)</string>
+	<string name="Grade6">Grade(6)</string>
+	<string name="Grade7">Grade(7)</string>
+	<string name="Grade8">Grade(8)</string>
+	<string name="Grade9">Grade(9)</string>
+	<string name="Grade10">Grade(10)</string>
+	<string name="Grade11">Grade(11)</string>
+	<string name="Grade12">Grade(12)</string>
+
+
+	<string name="all_lessonplan">All LessonPlans</string>
+	<string name="kg_lessonplan">Kg Lesson Plans</string>
+	<string name="g1_lessonplan">Grade 1 Lesson Plans</string>
+	<string name="g2_lessonplan">Grade 2 Lesson Plans</string>
+	<string name="g3_lessonplan">Grade 3 Lesson Plans</string>
+	<string name="g4_lessonplan">Grade 4 Lesson Plans</string>
+	<string name="g5_lessonplan">Grade 5 Lesson Plans</string>
+	<string name="g6_lessonplan">Grade 6 Lesson Plans</string>
+	<string name="g7_lessonplan">Grade 7 Lesson Plans</string>
+	<string name="g8_lessonplan">Grade 8 Lesson Plans</string>
+	<string name="g9_lessonplan">Grade 9 Lesson Plans</string>
+	<string name="g10_lessonplan">Grade 10 Lesson Plans</string>
+	<string name="g11_lessonplan">Grade 12 Lesson Plans</string>
+	<string name="g12_lessonplan">Grade 12 Lesson Plans</string>
+
+
+
+
+
+	<string name="result">Recent</string>
+
+	<string name="exam_result">Result</string>
+
+	<string name="see_recent">Recent</string>
+	<string name="tabe_no">Tabe No</string>
+	<string name="name">Name</string>
+	<string name="no">1</string>
+	<string name="some_error_occurred">Error</string>
+	<string name="no_results">No result is here for 2023</string>
+	<string name="app_title">Exam Result</string>
+
+	<string name="no_internet">No Internet</string>
+	<string name="noti_forweb">ကြည့်ရန်ဒီကိုနှိပ်ပါ</string>
+	<string name="about_app" >
+      </string>
+	<string name="share_app">Share App</string>
+	<string name="rate_app">Rate App</string>
+	<string name="policy_title">Privacy &amp; Policy</string>
+	<string name="disc">Disclaimer</string>
+	<string name="disc_message">This app is not an officially created and produced application by the Ministry of Education or the Myanmar Examination Department. It is not a government official app. The data is obtained and displayed through the official website of the Myanmar Examination Department, www.myanmarexam.org.</string>
+
+	<string name="startapp_app_id">205829672</string>
+	<string name="refresh">Refresh</string>
+
+
+
+
+	<string name="app_name_story">Myanmar Story</string>
+	<string name="title_home">Home</string>
+	<string name="title_favourite">Favourites</string>
+	<string name="title_favourite_mm">စိတ်ကြိုက်မှတ်သားမှုများ</string>
+	<string name="title_recent">Recent</string>
+	<string name="title_recent_mm">လက်တလော ကြည့်ရှုမှုများ</string>
+	<string name="title_setting">Settings</string>
+	<string name="title_setting_mm">ပြင်ဆင်မွမ်းမံမှုများ</string>
+	<string name="title_info">Info</string>
+	<string name="title_info_mm">သိကောင်းစရာများ</string>
+	<string name="empty_favourite">စိတ်ကြိုက်သိမ်းဆည်းထားသော သရုပ်များ \nမရှိသေးပါ။</string>
+	<string name="empty_recent">လက်တလော ကြည့်ရှုထားသော သရုပ်များ \nမရှိသေးပါ။</string>
+	<string name="title_detail">သရုပ်ဖော်ပြချက်</string>
+
+
+	<string name="offlinelearn">University</string>
+	<string name="online">HightSchool</string>
+	<string name="main3">Tools and News</string>
+	<string name="settingnew">Setting</string>
+
+	// setting
+	<string name="fontSize">စာလုံးအရွယ်အစား</string>
+	<string name="fontSizeSmall">အသေး</string>
+	<string name="fontSizeNormal">အလတ်</string>
+	<string name="fontSizeLarge">အကြီး</string>
+	<string name="fontSizeExtraLarge">အလွန်ကြီး</string>
+	<string name="themeTitle">အရောင်အသွင်အပြင်</string>
+	<string name="themeDay">နေ့ (နောက်ခံအဖြူ စာလုံးမဲ)</string>
+	<string name="themeNight">ည (နောက်ခံအမဲ စာလုံးဖြူ)</string>
+
+
+	<string name="title_favouritenew">ခွဲထားအညွန်</string>
+	<string name="title_recentnew">သတ်ပုံအညွန်း</string>
+	<string name="setting_btn">Setting button</string>
+	<string name="highscore">High Score : </string>
+	<string name="setting">Setting </string>
+	<string name="pause">Pause </string>
+	<string name="pause_btn">Pause button</string>
+	<string name="best_score">Best Score </string>
+	<string name="game_over">Game Over </string>
+	<string name="score">Score </string>
+	<string name="restart_btn">Restart Button </string>
+	<string name="sound_btn">Sound Button </string>
+	<string name="resume_btn">Resume Button </string>
+	<string name="exit_btn">Exit Button </string>
+	<string name="contact_btn">Contact Button </string>
+	<string name="home_btn">Home Button </string>
+	<string name="THvocab1">TH1</string>
+	<string name="THvocab2">TH2</string>
+	<string name="pic">pic</string>
+	<string name="basic_btn">Basic Mode</string>
+	<string name="advance_btn">Advance Mode</string>
+	<string name="mmspelling">မြန်မာ့စာလုံး​ပေါင်း သတ်ပုံကျမ်း</string>
+	<string name="sametitle_info_mm">သတ်ပုံအညွန်း ကြည့်ရန်</string>
+	<string name="dtitle_info_mm">ခွဲထားအညွန်း ကြည့်ရန် </string>
+
+	<string name="file_size_loading">....</string>
+	<string name="download_button">Download</string>
+
+
+
+	<string name="app_tagline">Myanmar must improve education</string>
+	<string name="app_logo">App Logo</string>
+	<string name="dictionary_title">မြန်မာစာလုံးပေါင်းသတ်ပုံကျမ်း</string>
+	<string name="dictionary_icon">Dictionary Icon</string>
+	<string name="spelling_title">မြန်မာစာလုံးပေါင်းသတ်ပုံကျမ်း-Offline</string>
+	<string name="spelling_icon">Spelling Icon</string>
+	<string name="story_title">Myanmar Story</string>
+	<string name="story_icon">Story Icon</string>
+	<string name="age_calculator_title">Age Calculator</string>
+	<string name="age_calculator_icon">Age Calculator Icon</string>
+	<string name="unit_converter_title">Unit Converter</string>
+	<string name="unit_converter_icon">Unit Converter Icon</string>
+	<string name="download_books_title">Download Books</string>
+	<string name="download_books_icon">Download Books Icon</string>
+	<string name="live_chat_title">Live Chat</string>
+	<string name="live_chat_icon">Live Chat Icon</string>
+	<string name="name_translator_title">Myanmar Name to English</string>
+	<string name="name_translator_icon">Name Translator Icon</string>
+
+<!--	<string name="banner_ad_unit_id">ca-app-pub-2481530783933136/6268884128</string>-->
+<!--	<string name="admob_interstitial_id">ca-app-pub-2481530783933136/8706526965</string>-->
+<!--	<string name="reward_ad_unit_id">ca-app-pub-2481530783933136/7274997931</string>-->
+<!--	<string name="admob_openads">ca-app-pub-2481530783933136/7507773164</string>-->
+
+
+		<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111A</string>
+		<string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712A</string>
+		<string name="reward_ad_unit_id">ca-app-pub-3940256099942544/5224354917A</string>
+		<string name="admob_openads">ca-app-pub-3940256099942544/9257395921A</string>
+
+
+
+	<!--	<string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--	<string name="admob_openads">ca-app-pub-3940256099942544/9257395921</string>-->
+<!--	<string name="admob_interstitial">ca-app-pub-3940256099942544/1033173712</string>-->
+
+
+	<string name="settings_title">Settings</string>
+	<string name="select_language">Select language</string>
+	<string name="press_back_again_to_exit">Press back again to exit</string>
+	<string name="cannot_open_link">Cannot open link</string>
+	<string name="link_not_secure">This link is not secure</string>
+	<string name="browser_telegram_missing">No browser or Telegram app found to open the link</string>
+	<string name="textbooks_source_unavailable">Text Books data source is currently unavailable.</string>
+	<string name="error_occurred_short">An error occurred</string>
+	<string name="no_internet_connection">No Internet Connection</string>
+</resources>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:card_view="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="150dp"
+	android:layout_margin="@dimen/project_small_gap"
+	android:background="@drawable/grid_item_bg">
+
+	<!-- CardView containing Image -->
+	<androidx.cardview.widget.CardView
+		android:id="@+id/iv1"
+		android:layout_width="125dp"
+		android:layout_height="150dp"
+		card_view:cardCornerRadius="6dp"
+		card_view:cardElevation="0dp"
+		card_view:contentPadding="0dp"
+		card_view:cardBackgroundColor="#F0F813">
+
+		<ImageView
+			android:id="@+id/ivItemImage"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:scaleType="centerCrop" />
+	</androidx.cardview.widget.CardView>
+
+	<!-- Title Text -->
+	<TextView
+		android:id="@+id/tvItemText"
+		android:layout_width="match_parent"
+		android:layout_height="65dp"
+		android:layout_marginStart="135dp"
+		android:layout_marginTop="10dp"
+		android:layout_alignTop="@+id/iv1"
+		android:textColor="#5F021E"
+		android:ellipsize="end"
+		android:maxLines="3"
+		android:textSize="17sp"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<!-- Subtitle 1 -->
+	<TextView
+		android:id="@+id/tvItemText2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/tvItemText"
+		android:layout_marginStart="135dp"
+		android:layout_marginTop="@dimen/project_small_gap"
+		android:text="Small Text"
+		android:textColor="#E213F8"
+		android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	<!-- Subtitle 2 -->
+	<TextView
+		android:id="@+id/tvItemText3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/tvItemText2"
+		android:layout_marginStart="135dp"
+		android:layout_marginTop="@dimen/project_small_gap"
+		android:text="Small Text"
+		android:textColor="#E213F8"
+		android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

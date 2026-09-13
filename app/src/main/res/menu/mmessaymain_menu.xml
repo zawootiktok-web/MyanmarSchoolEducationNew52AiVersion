@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/Search"/>
+    <item
+        android:id="@+id/menu_font"
+        android:icon="@drawable/refresh"
+        app:showAsAction="always"
+        android:title="@string/Font"/>
+
+
+
+
+    <item
+        android:id="@+id/story"
+
+        android:icon="@drawable/pdf"
+        android:title="All Eassays"/>
+
+
+</menu>

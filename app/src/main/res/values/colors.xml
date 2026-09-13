@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorGray">@color/distinctive_muted</color>
+
+
+    <color name="colorPrimary">@color/distinctive_indigo</color>
+    <color name="colorPrimaryDark">@color/distinctive_navy</color>
+    <color name="colorAccent">@color/distinctive_teal</color>
+
+    <color name="cardColor">@color/distinctive_card_surface</color>
+    <color name="textcardColor">@color/distinctive_on_surface</color>
+
+
+    <color name="primary">@color/distinctive_indigo</color>
+    <color name="primary_dark">@color/distinctive_navy</color>
+    <color name="accent">@color/distinctive_coral</color>
+    <color name="refresh_progress_1">@color/distinctive_indigo</color>
+    <color name="refresh_progress_2">@color/distinctive_teal</color>
+    <color name="refresh_progress_3">@color/distinctive_navy</color>
+
+
+    <!-- Color of circles. -->
+    <color name="colorOfCircle">@color/distinctive_teal</color>
+
+    <!-- Color of the text. -->
+<!--    <color name="colorOfText">#fff</color>-->
+
+    <!-- Color of Background. -->
+    <color name="backgroundColor">@color/distinctive_canvas</color>
+    <color name="backgroundColor1">@color/distinctive_card_surface</color>
+    <color name="colorOfStroke">@color/distinctive_violet</color>
+
+    <!-- Color of name and result in activity_result. -->
+    <color name="colorOfNameAndResult">#000</color>
+
+
+
+    <color name="transparent">#00000000</color>
+    <color name="slideCard">@color/distinctive_card_surface</color>
+    <color name="biCard">@color/distinctive_card_surface</color>
+    <color name="bCard">@color/distinctive_card_surface</color>
+
+    <color name="next_n">@color/distinctive_violet</color>
+    <color name="next_p">@color/distinctive_teal</color>
+
+    <color name="pre_n">@color/distinctive_teal</color>
+    <color name="pre_p">@color/distinctive_navy</color>
+
+
+    <color name="purple_200">#F1C8BB</color>
+    <color name="purple_500">@color/distinctive_indigo</color>
+    <color name="purple_700">@color/distinctive_navy</color>
+    <color name="teal_200">@color/distinctive_teal</color>
+    <color name="teal_700">@color/distinctive_navy</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="background_gradient_start">@color/distinctive_navy</color>
+    <color name="background_gradient_end">@color/distinctive_canvas</color>
+    <color name="fastlane_background">@color/distinctive_teal</color>
+    <color name="search_opaque">@color/distinctive_gold</color>
+    <color name="selected_background">@color/distinctive_gold</color>
+    <color name="default_background">@color/distinctive_navy</color>
+
+
+
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="clicked_gray">#80e0e0e0</drawable>
+
+
+    <color name="selectedTextColor">@color/distinctive_indigo</color>
+
+    <color name="defaultTextColor">@color/distinctive_on_surface</color>
+    <color name="alpha_green">#00F2FFF2</color>
+    <color name="nav_bg_color">@color/distinctive_card_surface</color>
+    <color name="category_card_bg">@color/distinctive_canvas</color>
+
+
+    <color name="color_primary">@color/distinctive_indigo</color>
+    <color name="color_primary_variant">@color/distinctive_navy</color>
+    <color name="color_secondary">@color/distinctive_coral</color>
+    <color name="color_secondary_variant">@color/distinctive_violet</color>
+
+    <color name="color_background">@color/distinctive_canvas</color>
+    <color name="color_surface">@color/distinctive_card_surface</color>
+    <color name="color_error">@color/distinctive_coral</color>
+
+    <color name="color_on_primary">#ffffff</color>
+    <color name="color_on_secondary">#000000</color>
+    <color name="color_on_background">@color/distinctive_on_surface</color>
+    <color name="color_on_surface">@color/distinctive_on_surface</color>
+    <color name="color_on_error">#000000</color>
+
+    <color name="color_event_time">@color/color_secondary</color>
+    <color name="color_drawable_tint">@color/distinctive_gold</color>
+
+
+    <color name="yellow">@color/distinctive_gold</color>
+
+    <color name="default_color">#FFFFFFFF</color> <!-- Replace with your desired default color -->
+
+    <color name="bottom_navigation_active">@color/distinctive_indigo</color>
+    <color name="bottom_navigation_inactive">@color/distinctive_muted</color>
+    <color name="bottom_navigation_background">@color/distinctive_navy</color>
+    <color name="cancel_card_color">#1B1313</color>
+    <color name="db_normal">@color/distinctive_indigo</color>
+    <color name="ratingcolor">@color/distinctive_gold</color>
+</resources>

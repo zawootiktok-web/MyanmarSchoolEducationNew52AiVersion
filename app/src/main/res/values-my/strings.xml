@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">မြန်မာ့ကျောင်းပညာရေး</string>
+    <string name="action_settings">ဆက်တင်များ</string>
+    <string name="text01new">မြန်မာ့ကျောင်းပညာရေး</string>
+    <string name="text02new">မြန်မာနိုင်ငံ ပညာရေး တိုးတက်ရမည်</string>
+    <string name="greetingText">ယနေ့ ဘာကိုလေ့လာချင်ပါသလဲ။</string>
+    <string name="textnew">ကျောင်းသုံးစာအုပ်များ</string>
+    <string name="text2new">ဆရာလမ်းညွှန်</string>
+    <string name="text3new">သင်ခန်းစာများ</string>
+    <string name="text4new">အထူးသင်ကြားရေး</string>
+    <string name="text5new">မေးခွန်းနှင့်အဖြေများ</string>
+    <string name="text6new">Mp3 နှင့် Mp4</string>
+    <string name="text7new">MSE အီးဘွတ်စာကြည့်တိုက်</string>
+    <string name="text8new">ပညာရေးရုပ်ရှင်</string>
+    <string name="text9new">အသုံးဝင်သောကိရိယာများ</string>
+    <string name="text10new">အသုံးဝင်သောသတင်းများ</string>
+    <string name="btn_en">အင်္ဂလိပ်</string>
+    <string name="btn_my">မြန်မာ</string>
+    <string name="settings_title">ဆက်တင်များ</string>
+    <string name="select_language">ဘာသာစကား ရွေးရန်</string>
+    <string name="press_back_again_to_exit">ထွက်ရန် Back ကို ထပ်နှိပ်ပါ</string>
+    <string name="cannot_open_link">လင့်ကို ဖွင့်၍မရပါ</string>
+    <string name="link_not_secure">ဤလင့်သည် လုံခြုံမှုမရှိပါ</string>
+    <string name="browser_telegram_missing">လင့်ဖွင့်ရန် Browser သို့မဟုတ် Telegram မတွေ့ပါ</string>
+    <string name="textbooks_source_unavailable">Text Books data source ကို လောလောဆယ် ရယူ၍မရပါ</string>
+    <string name="error_occurred_short">အမှားတစ်ခု ဖြစ်ပေါ်ခဲ့ပါသည်</string>
+    <string name="no_internet_connection">အင်တာနက် ချိတ်ဆက်မှု မရှိပါ</string>
+</resources>

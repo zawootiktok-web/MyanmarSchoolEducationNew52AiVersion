@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <a id="downloadLink" href="https://r22n3xyx545fs37s3kz6hjxz6gwjxyw3u2a.s3.ap-southeast-1.amazonaws.com/data/ygn/YGN-001.pdf" 
+    download="YGN-001.pdf">
+        <button id="downloadButton" type="button" class="btn btn-default btn-sm">Download</button>
+    </a>
+
+    <script>
+        function ownloadButton(url,title){
+
+            var parts = url.split('/');
+            var filename = parts[parts.length - 1];
+
+            document.addEventListener("DOMContentLoaded", function() {
+            var link = document.getElementById("downloadLink");
+            var button = document.getElementById("downloadButton");
+            var originalHref = link.getAttribute("href");
+            var originalDownload = link.getAttribute("download");
+
+            // Modify href and download attributes
+            link.setAttribute("href", url);
+            link.setAttribute("download", filename);
+
+            // Modify button text
+            button.innerHTML = title;
+
+            // Apply CSS styles
+            button.style.height = "50px";
+            button.style.border = "2px solid green";
+            button.style.backgroundColor = "rgba(0, 128, 0, 0.5)";
+        });
+        }
+         </script>
+</body>
+
+</html>

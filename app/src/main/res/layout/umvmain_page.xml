@@ -1,0 +1,431 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:textColor="#FFE91E63"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Free To Air"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:id="@+id/tvTV"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tvTV"
+    android:id="@+id/linearTV"
+    android:visibility="gone">
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_gridtableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="horizontal">
+
+            <GridView
+                android:id="@+id/gridView1"
+                android:layout_width="1500dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="4dp"
+                android:columnWidth="100dp"
+                android:gravity="center"
+                android:horizontalSpacing="1dp"
+                android:numColumns="15"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbars="horizontal"
+                android:stretchMode="none"
+                android:verticalSpacing="1dp">
+
+            </GridView>
+
+
+        </LinearLayout>
+    </FrameLayout>
+</HorizontalScrollView>
+</LinearLayout>
+    <TextView
+        android:textColor="#1430CC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movies"
+        android:textSize="25sp"
+        android:layout_below="@id/linearTV"
+        android:layout_margin="10dp"
+        android:id="@+id/tvMovie"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMovie"
+        android:id="@+id/linearMovie"
+        android:visibility="gone">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_imgLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnAll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="ALL"
+            android:textColor="@drawable/selector_name"
+            android:singleLine="true"
+            android:layout_margin="@dimen/project_small_gap"
+            android:padding="10dp"
+            android:layout_gravity="center"
+              android:minHeight="@dimen/project_touch_target" />
+        <Button
+            android:id="@+id/btnAction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Action"
+            android:textColor="@drawable/selector_name"
+            android:singleLine="true"
+            android:layout_margin="@dimen/project_small_gap"
+            android:padding="10dp"
+            android:layout_gravity="center"
+              android:minHeight="@dimen/project_touch_target" />
+        <Button
+            android:id="@+id/btnAdv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Adventure"
+            android:textColor="@drawable/selector_name"
+            android:singleLine="true"
+            android:layout_margin="@dimen/project_small_gap"
+            android:padding="10dp"
+            android:layout_gravity="center"
+             android:minHeight="@dimen/project_touch_target" />
+        <Button
+            android:id="@+id/btnAni"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Animation"
+            android:textColor="@drawable/selector_name"
+            android:singleLine="true"
+            android:layout_margin="@dimen/project_small_gap"
+            android:padding="10dp"
+            android:layout_gravity="center"
+             android:minHeight="@dimen/project_touch_target" />
+
+        <Button
+            android:id="@+id/btnCrime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Crime"
+            android:textColor="@drawable/selector_name"
+            android:singleLine="true"
+            android:layout_margin="@dimen/project_small_gap"
+            android:padding="10dp"
+            android:layout_gravity="center"
+             android:minHeight="@dimen/project_touch_target" />
+        <Button
+            android:id="@+id/btnDrama"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Drama"
+            android:textColor="@drawable/selector_name"
+            android:singleLine="true"
+            android:layout_margin="@dimen/project_small_gap"
+            android:padding="10dp"
+            android:layout_gravity="center"
+             android:minHeight="@dimen/project_touch_target" />
+        <Button
+            android:id="@+id/btnFamily"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Family"
+            android:textColor="@drawable/selector_name"
+            android:singleLine="true"
+            android:layout_margin="@dimen/project_small_gap"
+            android:padding="10dp"
+            android:layout_gravity="center"
+             android:minHeight="@dimen/project_touch_target" />
+        <Button
+            android:id="@+id/btnHorror"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Horror"
+            android:textColor="@drawable/selector_name"
+            android:singleLine="true"
+            android:layout_margin="@dimen/project_small_gap"
+            android:padding="10dp"
+            android:layout_gravity="center"
+             android:minHeight="@dimen/project_touch_target" />
+    </LinearLayout>
+    </FrameLayout>
+    </HorizontalScrollView>
+    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:focusable="true"
+                android:textIsSelectable="true"
+                android:focusableInTouchMode="true"
+                android:text="Developed by ULG.Everyone can donate to 09972381187 with KPay or WavePay."
+                android:textSize="15sp"
+                android:layout_below="@id/linearMovie"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
+                android:padding="10dp"
+                android:textColor="@color/accent"
+                android:layout_margin="10dp"
+                android:id="@+id/tvDonate"
+                android:visibility="gone"/>
+
+
+            <TextView
+
+                android:textColor="#FF0E247A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Movies By Country"
+                android:textSize="25sp"
+                android:layout_below="@id/tvDonate"
+                android:layout_margin="10dp"
+                android:id="@+id/tvCountry"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCountry"
+                android:id="@+id/linearCountry"
+                android:visibility="gone">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout_countryLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/btnUSA"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:text="USA"
+                                android:textColor="@drawable/selector_name"
+                                android:singleLine="true"
+                                android:layout_margin="@dimen/project_small_gap"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                 android:minHeight="@dimen/project_touch_target" />
+                            <Button
+                                android:id="@+id/btnKorea"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:text="Korea"
+                                android:textColor="@drawable/selector_name"
+                                android:singleLine="true"
+                                android:layout_margin="@dimen/project_small_gap"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                 android:minHeight="@dimen/project_touch_target" />
+                            <Button
+                                android:id="@+id/btnIndia"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:text="India"
+                                android:textColor="@drawable/selector_name"
+                                android:singleLine="true"
+                                android:layout_margin="@dimen/project_small_gap"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                 android:minHeight="@dimen/project_touch_target" />
+                            <Button
+                                android:id="@+id/btnChina"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:text="China"
+                                android:textColor="@drawable/selector_name"
+                                android:singleLine="true"
+                                android:layout_margin="@dimen/project_small_gap"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                 android:minHeight="@dimen/project_touch_target" />
+
+                            <Button
+                                android:id="@+id/btnThai"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:text="Thailand"
+                                android:textColor="@drawable/selector_name"
+                                android:singleLine="true"
+                                android:layout_margin="@dimen/project_small_gap"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                 android:minHeight="@dimen/project_touch_target" />
+                            <Button
+                                android:id="@+id/btnUK"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:text="UK"
+                                android:textColor="@drawable/selector_name"
+                                android:singleLine="true"
+                                android:layout_margin="@dimen/project_small_gap"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                 android:minHeight="@dimen/project_touch_target" />
+                            <Button
+                                android:id="@+id/btnFrance"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:text="France"
+                                android:textColor="@drawable/selector_name"
+                                android:singleLine="true"
+                                android:layout_margin="@dimen/project_small_gap"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                 android:minHeight="@dimen/project_touch_target" />
+                            <Button
+                                android:id="@+id/btnRussia"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:text="Russia"
+                                android:textColor="@drawable/selector_name"
+                                android:singleLine="true"
+                                android:layout_margin="@dimen/project_small_gap"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                 android:minHeight="@dimen/project_touch_target" />
+                            <Button
+                                android:id="@+id/btnSpain"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:text="Spain"
+                                android:textColor="@drawable/selector_name"
+                                android:singleLine="true"
+                                android:layout_margin="@dimen/project_small_gap"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                 android:minHeight="@dimen/project_touch_target" />
+                            <Button
+                                android:id="@+id/btnHK"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:text="Hong Kong"
+                                android:textColor="@drawable/selector_name"
+                                android:singleLine="true"
+                                android:layout_margin="@dimen/project_small_gap"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                 android:minHeight="@dimen/project_touch_target" />
+                            <Button
+                                android:id="@+id/btnMalay"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:text="Malaysia"
+                                android:textColor="@drawable/selector_name"
+                                android:singleLine="true"
+                                android:layout_margin="@dimen/project_small_gap"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                 android:minHeight="@dimen/project_touch_target" />
+                            <Button
+                                android:id="@+id/btnJapan"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:text="Japan"
+                                android:textColor="@drawable/selector_name"
+                                android:singleLine="true"
+                                android:layout_margin="@dimen/project_small_gap"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                 android:minHeight="@dimen/project_touch_target" />
+                            <Button
+                                android:id="@+id/btnCanada"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:text="Canada"
+                                android:textColor="@drawable/selector_name"
+                                android:singleLine="true"
+                                android:layout_margin="@dimen/project_small_gap"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                 android:minHeight="@dimen/project_touch_target" />
+                            <Button
+                                android:id="@+id/btnOthers"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.0"
+                                android:text="Others"
+                                android:textColor="@drawable/selector_name"
+                                android:singleLine="true"
+                                android:layout_margin="@dimen/project_small_gap"
+                                android:padding="10dp"
+                                android:layout_gravity="center"
+                                 android:minHeight="@dimen/project_touch_target" />
+                        </LinearLayout>
+                    </FrameLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id">
+
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

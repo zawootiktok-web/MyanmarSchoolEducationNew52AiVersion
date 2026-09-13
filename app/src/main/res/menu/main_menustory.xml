@@ -1,0 +1,67 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+		app:actionViewClass="androidx.appcompat.widget.SearchView"
+		android:icon="@android:drawable/ic_menu_search"
+		app:showAsAction="always|collapseActionView"
+        android:title="Search"/>
+    <item
+        android:id="@+id/menu_font"
+		android:icon="@drawable/refresh"
+		app:showAsAction="always"
+        android:title="Font"/>
+
+
+
+
+	<item
+		android:id="@+id/lessonstory"
+
+		android:icon="@drawable/pdf"
+		android:title="All"/>
+	
+	<item
+		android:id="@+id/use"
+
+			android:title="App Usage"/>
+	
+	
+
+	<item
+		android:id="@+id/story"
+
+			android:title="StoryLessons"/>
+	
+	<item
+		android:id="@+id/lessonplan"
+
+			android:title="LessonPlan"/>
+		
+	<item
+		android:id="@+id/qtype"
+
+
+		android:title="QuestionType"/>
+		
+
+	<item
+		android:id="@+id/tguide"
+
+			android:title="Teacher Guide"/>
+	<item
+		android:id="@+id/eeassay"
+
+			android:title="English Eassay​ ​များ"/>
+	<item
+		android:id="@+id/meassay"
+
+			android:title="MyanmarEassays"/>
+		
+	<item
+		android:id="@+id/Enews"
+
+		android:title="EducationNews"/>
+	
+</menu>

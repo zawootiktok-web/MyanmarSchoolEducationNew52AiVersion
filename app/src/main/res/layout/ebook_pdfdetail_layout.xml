@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="match_parent" android:layout_width="match_parent"><com.google.android.material.appbar.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/nnl_appbar"><androidx.appcompat.widget.Toolbar android:id="@+id/toolbar2" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:theme="@style/ThemeOverlay.AppCompat.Dark" app:popupTheme="@style/ThemeOverlay.AppCompat.Light"><ImageView android:id="@+id/ivToolbarBack" android:layout_width="24dp" android:layout_height="wrap_content" android:layout_gravity="left" android:src="@drawable/ebook_back" android:onClick="_Back_Click" android:layout_margin="15dp" />
+
+			<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" android:text="Text" android:layout_gravity="left" android:id="@+id/tvViewerTitle" android:textColor="@color/ebook_white" />
+
+		</androidx.appcompat.widget.Toolbar>
+
+	</com.google.android.material.appbar.AppBarLayout>
+
+	<RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" android:padding="4dp" android:layout_below="@id/nnl_appbar" android:layout_alignParentBottom="true" android:id="@+id/detaillayoutRelativeLayout1"><ImageView android:layout_height="200dp" android:layout_width="match_parent" android:src="@android:drawable/ic_delete" android:id="@+id/ivDetail" />
+
+		<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/layDownload" android:layout_below="@id/ivDetail" android:orientation="horizontal"><Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="readClick" android:text="ဖတ်ရန်" android:layout_weight="1.0" android:background="@drawable/ebook_bg_style1" />
+
+
+			<Button android:id="@+id/videolayoutButton1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="downloadClick" android:text="Downရန်" android:layout_weight="1.0" android:background="@drawable/ebook_bg_style" />
+
+		</LinearLayout>
+
+		<ScrollView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_below="@+id/layDownload" android:layout_alignParentBottom="true" android:padding="4dp"><TextView android:textSize="18sp" android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Text" android:id="@+id/tvDetail" />
+
+		</ScrollView>
+
+
+
+
+
+		<com.google.android.gms.ads.AdView android:id="@+id/ad_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_alignParentBottom="true" app:adSize="BANNER" app:adUnitId="@string/banner_ad_unit_id" />
+
+
+
+
+
+	</RelativeLayout>
+
+</RelativeLayout>

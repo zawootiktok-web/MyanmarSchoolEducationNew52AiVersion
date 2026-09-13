@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_exam_result"
+        android:icon="@drawable/outline_checklist_black_36"
+        android:contentDescription="@string/exam_result"
+        android:title="@string/exam_result" />
+
+    <item
+        android:id="@+id/navigation_exam_recent"
+        android:icon="@drawable/outline_restore_black_36"
+        android:contentDescription="@string/see_recent"
+        android:title="@string/see_recent" />
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/outline_info_black_36"
+        android:contentDescription="@string/about"
+        android:title="@string/about" />
+
+</menu>

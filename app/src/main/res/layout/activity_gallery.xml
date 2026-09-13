@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/background">
+
+	<com.google.android.material.appbar.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:id="@+id/nnl_appbar">
+
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/nnl_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			app:layout_collapseMode="pin"
+			android:theme="@style/ThemeOverlay.AppCompat.Dark"
+			app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+			android:elevation="@dimen/project_card_elevation">
+
+		</androidx.appcompat.widget.Toolbar>
+
+	</com.google.android.material.appbar.AppBarLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:paddingTop="?attr/actionBarSize">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<ListView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/lv"
+				android:divider="@null"/>
+
+
+		</RelativeLayout>
+		<FrameLayout
+			android:id="@+id/banner_ad_container"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" />
+
+	</RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

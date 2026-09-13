@@ -1,0 +1,136 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+		app:actionViewClass="androidx.appcompat.widget.SearchView"
+		android:icon="@android:drawable/ic_menu_search"
+		app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/Search"/>
+    <item
+        android:id="@+id/menu_font"
+		android:icon="@drawable/refresh"
+		app:showAsAction="always"
+        android:title="@string/Font"/>
+
+
+
+
+	<item
+		android:id="@+id/post"
+
+		android:icon="@drawable/pdf"
+		android:title="@string/all_post"/>
+	
+	<item
+		android:id="@+id/lessonnew"
+
+		android:icon="@drawable/pdf"
+		android:title="@string/all_lesson"/>
+	
+
+	<item
+		android:id="@+id/lessonplan"
+
+		
+		android:title="@string/Lesson_Plans"/>
+	
+	<item
+		android:id="@+id/qtype"
+
+
+		android:title="@string/Question_Plan"/>
+	
+	<item
+		android:id="@+id/itype"
+
+
+		android:title="@string/Item_TypeCPD"/>
+	
+
+	<item
+		android:id="@+id/tguide"
+
+		
+		android:title="@string/Teacher_Guide"/>
+	<item
+		android:id="@+id/essay"
+
+		
+		android:title="@string/English_Essays"/>
+	<item
+		android:id="@+id/messay"
+
+		
+		android:title="@string/Myanmar_Essays"/>
+
+
+	<item
+		android:id="@+id/mm"
+
+
+		android:title="@string/Myanmar"/>
+
+
+	<item
+		android:id="@+id/eng"
+
+		android:title="@string/English"/>
+
+	<item
+		android:id="@+id/mathnew"
+
+		android:title="@string/Math"/>
+
+
+	<item
+		android:id="@+id/science"
+
+		android:title="@string/Science"/>
+
+	<item
+		android:id="@+id/moral"
+
+
+		android:title="@string/Moral"/>
+
+
+	<item
+		android:id="@+id/lskill"
+
+
+		android:title="@string/Life_Skill"/>
+
+	<item
+		android:id="@+id/social"
+
+
+		android:title="@string/Social"/>
+
+
+	<item
+		android:id="@+id/physical"
+
+
+		android:title="@string/Physcial"/>
+
+	<item
+		android:id="@+id/art"
+		android:title="@string/Art"/>
+
+
+	<item
+		android:id="@+id/musicnew"
+
+
+		android:title="@string/Music"/>
+
+	<item
+		android:id="@+id/geo"
+
+
+		android:title="@string/Geography"/>
+
+	
+
+</menu>

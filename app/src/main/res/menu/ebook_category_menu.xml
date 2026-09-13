@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:icon="@drawable/ebook_ic_search"
+        app:showAsAction="always|collapseActionView"
+        android:title="@string/search"/>
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/ebook_ic_share"
+        app:showAsAction="always"
+        android:title="@string/share"/>
+
+</menu>

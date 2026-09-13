@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+		app:actionViewClass="androidx.appcompat.widget.SearchView"
+		android:icon="@android:drawable/ic_menu_search"
+		app:showAsAction="always|collapseActionView"
+        android:title="Search"/>
+    <item
+        android:id="@+id/menu_font"
+		android:icon="@drawable/ebook_font"
+		app:showAsAction="always"
+        android:title="Font"/>
+
+	<item
+        android:id="@+id/pg"
+		android:icon="@drawable/ebook_ic_launcher"
+		android:title="Page_1"/>
+	
+	<item
+        android:id="@+id/pg2"
+		android:icon="@drawable/ebook_ic_launcher"
+		android:title="Page_2"/>
+	
+	<item
+        android:id="@+id/pg3"
+		android:icon="@drawable/ebook_ic_launcher"
+		android:title="Page_3"/>
+	
+	<item
+        android:id="@+id/pg4"
+		android:icon="@drawable/ebook_ic_launcher"
+		android:title="Page_4"/>
+
+	<item
+        android:id="@+id/pg5"
+		android:icon="@drawable/ebook_ic_launcher"
+		android:title="Page_5"/>
+	
+	
+</menu>

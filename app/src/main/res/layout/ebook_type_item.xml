@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/CardView.Light" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/blog_small_gap" app:cardCornerRadius="10dp" android:clickable="true" android:foreground="?android:attr/selectableItemBackground" android:elevation="6dp"><RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content"><ImageView android:id="@+id/ivItemImage" android:layout_width="match_parent" android:layout_height="160dp" android:scaleType="centerInside" />
+
+		<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:text="Medium Text" android:layout_below="@id/ivItemImage" android:id="@+id/tvItemText" android:textColor="@color/primary" android:gravity="center" android:padding="@dimen/blog_card_padding_compact" />
+
+	</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

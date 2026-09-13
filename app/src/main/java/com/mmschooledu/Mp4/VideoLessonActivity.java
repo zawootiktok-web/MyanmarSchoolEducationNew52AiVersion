@@ -1,0 +1,209 @@
+package com.mmschooledu.Mp4;
+
+import android.app.AlertDialog;
+import android.text.Html;
+import android.view.LayoutInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+import com.mmschooledu.FontConverter;
+import com.mmschooledu.Item.PostItem;
+import com.mmschooledu.R;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+
+public class VideoLessonActivity extends VideoIndexActivity
+{
+
+
+	/*String[] links={
+	 "https://mymoviestest1.blogspot.com/feeds/posts/default?alt=json",
+	 "https://mymoviestest.blogspot.com/feeds/posts/default?alt=json",
+	 "https://mymoviestest1.blogspot.com/feeds/posts/default?alt=json",
+
+
+	 "Books3",
+	 "Books4"
+	 };
+
+	 String[] titles={
+	 "Index",
+	 "young",
+	 "English",
+	 "Novel"
+	 };*/
+
+    int current=0;
+
+    @Override
+    public void _Options_Menu_Click(MenuItem item)
+    {
+        int id=item.getItemId();
+		/*if (id == R.id.menu_about)
+		 {
+		 MsgBox("About",
+		 "This project is created by Purple Snake for the members of AIDE Networking group.\n\n" +
+
+		 "😎");
+		 }
+		 else if (id == R.id.navigation_item_contact)
+		 {
+		 //open contact Activity
+		 }*/
+		/*else if (id == R.id.navigation_item_facebook)
+		 {
+		 //open facebook
+		 }
+		 else
+		 {
+		 if (id == R.id.menu_graphics)
+		 {
+		 current = 0;
+		 }
+		 else if (id == R.id.menu_programming)
+		 {
+		 current = 1;
+		 }
+		 else if (id == R.id.menu_english)
+		 {
+		 current = 2;
+		 }
+		 else if (id == R.id.menu_novel)
+		 {
+		 current = 3;
+		 }*/
+
+        refresh();
+    }
+
+
+
+
+    public void processJson(String inputJson){
+        posts = new ArrayList<PostItem>();
+        String input="";
+        switch(currentFont){
+            case FONT_ZAWGYI:
+                input= FontConverter.uni2zg(inputJson);
+                break;
+            case FONT_UNI:
+                input=FontConverter.zg2uni(inputJson);
+                break;
+            default:
+                input=inputJson;
+                break;
+        }
+        try
+        {
+
+            JSONObject jo=new JSONObject(input);
+            JSONArray ja=jo.getJSONObject("feed").getJSONArray("entry");
+            JSONObject jo2;
+            for(int i=0;i<ja.length();i++){
+                jo2=ja.getJSONObject(i);
+                if(jo2.getJSONObject("title").getString("$t").equals(category)){
+                    String content=jo2.getJSONObject("content").getString("$t");
+                    String orgjson=Html.fromHtml(content).toString();
+
+                    JSONObject obj=new JSONObject(orgjson);
+                    JSONArray jarr=obj.getJSONArray("category");
+                    for(int j=0;j<jarr.length();j++){
+                        PostItem p=new PostItem();
+
+                        p.thumbnail=(jarr.getJSONObject(j).getString("thumbnail"));
+                        p.bname=(jarr.getJSONObject(j).getString("bname"));
+                        p.wname=(jarr.getJSONObject(j).getString("wname"));
+                        p.link=(jarr.getJSONObject(j).getString("link"));
+                        p.category=(jarr.getJSONObject(j).getString("category"));
+                        p.wname=(jarr.getJSONObject(j).getString("mb1"));
+                        p.wname=(jarr.getJSONObject(j).getString("mb2"));
+                        p.wname=(jarr.getJSONObject(j).getString("time"));
+
+
+                        addItem(p);
+
+                    }
+                    //loadP(obj.getString("p_img"),obj.getString("p_title"),obj.getString("p_subtitle"));
+
+                }
+
+            }
+        }
+        catch (JSONException e)
+        {
+            //Toast.makeText(this,e.toString(),1).show();
+            showNoInternet();
+        }
+
+    }
+    @Override
+    public boolean useGridLayout()
+    {
+        return true;
+    }
+
+    @Override
+    public String getFeedAddress()
+    {
+        String bname=getIntent().getExtras()
+                .get("bname").toString();
+
+        getSupportActionBar().setTitle(bname+"");
+
+        //return "https://mytestmovies.blogspot.com/feeds/posts/default?alt=json";
+        //  return "https://topaone-computer-basic.blogspot.com/feeds/posts/default?alt=json";
+
+        //return "https://mymoviestest1.blogspot.com/feeds/posts/default?alt=json";
+        //return "https://surveyormanualbooks.blogspot.com/feeds/posts/default?alt=json";
+
+
+        //setTitle(titles[current]);
+        setTitle(title);
+
+        //return links[current];
+        //return  "https://onlinebookstorereadernew.blogspot.com/feeds/posts/default?alt=json";
+        //return  "https://onlineaudiobook2023.blogspot.com/feeds/posts/default?alt=json";
+
+
+        return url;
+
+    }
+    private void showNoInternet (){
+        final AlertDialog dialog = new AlertDialog.Builder(this).create();
+        View parent_view = LayoutInflater.from(this).inflate(R.layout.nointernet_dia, null);
+        dialog.setView(parent_view);
+        dialog.setCancelable(false);
+        dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+        dialog.show();
+
+        // Finding Views inside dialog
+        TextView tv_title = dialog.findViewById(R.id.dialogTextView1);
+        Button button = dialog.findViewById(R.id.dialogButton1);
+
+
+        tv_title.setText("အင်တာနက်လိုင်း\u200Bနှေး\u200Bနေပါသည်\n" +
+                "Wifi မသုံးပဲ Phone  Sim card internet ဖြင့်သုံးပါ \n သို့မဟုတ်\n  Mytel Sim ဖြစ်လျှင် ဗွီပီအမ် ခံပြီးမှပြန်ဝင်ပါ \n " +
+                "သို့မဟုတ် \n Phone Screen ကို လက်ဖြင့်ပွတ်ဆွဲပြီး refresh လုပ်\u200Bပေးပါ");
+
+        button.setText("..ဟုတ်ကကဲ့..");
+
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View p1)
+            {
+                dialog.dismiss();
+            }});
+    }}
+
+
+
+
+
+
+

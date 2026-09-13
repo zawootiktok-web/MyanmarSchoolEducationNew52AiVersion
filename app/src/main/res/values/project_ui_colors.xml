@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="project_surface">@color/color_surface</color>
+    <color name="project_background">@color/color_background</color>
+    <color name="project_on_surface">@color/color_on_surface</color>
+    <color name="project_on_surface_muted">#FF6B6B6B</color>
+    <color name="project_surface_variant">@color/nav_bg_color</color>
+    <color name="project_primary">@color/colorPrimary</color>
+    <color name="project_primary_dark">@color/colorPrimaryDark</color>
+    <color name="project_outline">#FFD6D6D6</color>
+    <color name="project_scrim">#66000000</color>
+</resources>

@@ -1,0 +1,127 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+		app:actionViewClass="androidx.appcompat.widget.SearchView"
+		android:icon="@android:drawable/ic_menu_search"
+		app:showAsAction="always|collapseActionView"
+        android:title="Search"/>
+    <item
+        android:id="@+id/menu_font"
+		android:icon="@drawable/refresh"
+		app:showAsAction="always"
+        android:title="Font"/>
+
+
+
+
+	<item
+		android:id="@+id/lessonknowledge"
+
+		android:icon="@drawable/pdf"
+		android:title="All Lessons"/>
+
+	<item
+		android:id="@+id/tjob"
+
+
+		android:title="Teacher Jobs"/>
+
+	<item
+		android:id="@+id/tguide"
+
+
+		android:title="Teacher Guide"/>
+
+	<item
+		android:id="@+id/enews"
+
+
+		android:title="Education News"/>
+
+
+
+
+
+	<item
+		android:id="@+id/kg"
+
+
+		android:title="Kg"/>
+
+
+	<item
+		android:id="@+id/grade1"
+
+		android:title="Grade(1)"/>
+
+	<item
+		android:id="@+id/grade2"
+
+		android:title="Grade(2)"/>
+
+
+	<item
+		android:id="@+id/grade3"
+
+		android:title="Grade(3)"/>
+
+	<item
+		android:id="@+id/grade4"
+
+
+		android:title="Grade(4)"/>
+
+
+	<item
+		android:id="@+id/grade5"
+
+
+		android:title="Grade(5)"/>
+
+	<item
+		android:id="@+id/grade6"
+
+
+		android:title="Grade(6)"/>
+
+
+	<item
+		android:id="@+id/grade7"
+
+
+		android:title="Grade(7)"/>
+
+	<item
+		android:id="@+id/grade8"
+		android:title="Grade(8)"/>
+
+
+	<item
+		android:id="@+id/grade9"
+
+
+		android:title="Grade(9)"/>
+
+	<item
+		android:id="@+id/grade10"
+
+
+		android:title="Grade(10)"/>
+
+
+	<item
+		android:id="@+id/grade11"
+
+
+		android:title="Grade(11)"/>
+
+	<item
+		android:id="@+id/grade12"
+
+
+		android:title="Grade(12)"/>
+
+
+</menu>

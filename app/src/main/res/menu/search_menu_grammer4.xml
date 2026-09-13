@@ -1,0 +1,129 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"
+        android:title="Search"/>
+
+
+
+    <item
+        android:id="@+id/book"
+        android:title="@string/home2" />
+    <item
+        android:id="@+id/book2"
+        android:title="All Books" />
+    <item
+        android:id="@+id/book3"
+        android:title="School Bundle" />
+
+    <item
+        android:id="@+id/book4"
+        android:title="English Vocabulary" />
+    <item
+        android:id="@+id/book5"
+        android:title="Spanish books" />
+
+
+    <item
+        android:id="@+id/book6"
+        android:title="How To Teach Books" /> <item
+    android:id="@+id/book7"
+    android:title="IELTS" /> <item
+    android:id="@+id/book8"
+    android:title="100 Ideas Series Books" /> <item
+    android:id="@+id/book9"
+    android:title="101 Challenging Math’s Word Problems Books" /> <item
+    android:id="@+id/book10"
+    android:title="240 Vocabulary Words Kids Need to Know Books" /> <item
+    android:id="@+id/book11"
+    android:title="4000 Essential English Words Books First Edition" /> <item
+    android:id="@+id/book12"
+    android:title="Activity Children Books" /> <item
+    android:id="@+id/book13"
+    android:title="All In One Reading Passages Books" /> <item
+    android:id="@+id/book14"
+    android:title="American English Student’s Books" />
+    <item
+    android:id="@+id/book15"
+    android:title="American English Teacher’s Books" /> <item
+    android:id="@+id/book16"
+    android:title="American English Workbooks" /> <item
+    android:id="@+id/book17"
+    android:title="Basic Math Skills Books" /> <item
+    android:id="@+id/book18"
+    android:title="Big Ideas Simply Explained" /> <item
+    android:id="@+id/book19"
+    android:title="Brilliant Activity Books" /> <item
+    android:id="@+id/book20"
+    android:title="Building Fluency Books" /> <item
+    android:id="@+id/book21"
+    android:title="Building Spelling Skills Books" /> <item
+    android:id="@+id/book22"
+    android:title="Building Vocabulary Books" /> <item
+    android:id="@+id/book23"
+    android:title="Business Vocabulary" />
+    <item
+    android:id="@+id/book24"
+    android:title="Cambridge Academic English Student’s Books" />
+
+    <item
+        android:id="@+id/book25"
+        android:title=" Cambridge Primary Path Student’s Books  " />
+    <item
+        android:id="@+id/book26"
+        android:title=" Cambridge Primary Reading Student’s Books  " />
+    <item
+        android:id="@+id/book27"
+        android:title="  Collions " />
+    <item
+        android:id="@+id/book28"
+        android:title="  Conversation Books " />
+    <item
+        android:id="@+id/book29"
+        android:title="  Daily Language Review " />
+    <item
+        android:id="@+id/book30"
+        android:title=" Dummies  " />
+    <item
+        android:id="@+id/book31"
+        android:title=" German books  " />
+    <item
+        android:id="@+id/book32"
+        android:title="Grammar and Punctuation Workbooks"/>
+    <item
+        android:id="@+id/book33"
+        android:title="Grammar Friends books"/>
+
+
+    <item
+        android:id="@+id/book34"
+        android:title="Grammar Practice for Students Books "/>
+
+    <item
+        android:id="@+id/book35"
+        android:title=" Grammar Sense Books"/> <item
+    android:id="@+id/book36"
+    android:title=" Grammar Way Books"/> <item
+    android:id="@+id/book37"
+    android:title="Incredible English Activity Book "/> <item
+    android:id="@+id/book38"
+    android:title="Let’s Read And Write In English Books "/>
+    <item
+    android:id="@+id/book39"
+    android:title="Longman Academic Writing Books "/>
+
+    <item
+        android:id="@+id/book40"
+        android:title="Macmillan English Grammar Books "/>
+
+
+</menu>
+
+
+
+
+

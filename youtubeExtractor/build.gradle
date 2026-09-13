@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+
+android {
+
+    namespace 'com.mmschooledu'
+    compileSdkVersion 36
+
+    defaultConfig {
+
+
+        minSdkVersion 21
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    lint {
+        targetSdk 36
+    }
+    testOptions {
+        targetSdk 36
+    }
+}
+
+dependencies {
+    //implementation 'com.android.support:support-annotations:28.0.0'
+    implementation libs.annotation
+}

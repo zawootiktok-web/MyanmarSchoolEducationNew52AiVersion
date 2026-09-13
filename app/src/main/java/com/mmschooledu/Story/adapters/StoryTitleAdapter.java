@@ -1,0 +1,144 @@
+package com.mmschooledu.Story.adapters;
+
+import android.content.Context;
+import android.database.Cursor;
+import android.graphics.Color;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.text.Editable;
+import android.text.SpannableString;
+import android.text.Spanned;
+import android.text.TextWatcher;
+import android.text.style.BackgroundColorSpan;
+import android.text.style.ForegroundColorSpan;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.mmschooledu.R;
+import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView;
+
+import java.util.ArrayList;
+
+
+import com.mmschooledu.Story.models.Story;
+import com.mmschooledu.Story.models.StoryType;
+import com.mmschooledu.Story.utils.MDetect;
+import com.mmschooledu.Story.utils.SharePref;
+
+public class StoryTitleAdapter extends RecyclerView.Adapter<StoryTitleAdapter.ViewHolder>
+        implements FastScrollRecyclerView.SectionedAdapter {
+
+    protected OnItemClickListener listener;
+    private ArrayList<Story> storyTitles;
+
+    private static final String TAG = "StoryTitleAdapter";
+    private String filterText = "";
+    private int fontSize = 18;
+
+    public StoryTitleAdapter(ArrayList<Story> storyTitles, OnItemClickListener listener){
+        this.storyTitles = storyTitles;
+        this.listener = listener;
+    }
+
+    @NonNull
+    @Override
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        fontSize = SharePref.getInstance(parent.getContext()).getPrefFontSize();
+        return new ViewHolder(LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.wordlist_row_item, parent,false));
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+
+        TextView tv_word = holder.tv_word;
+        Story storyTitle = storyTitles.get(position);
+        if(filterText.isEmpty()) {
+            tv_word.setText(MDetect.getDeviceEncodedText(storyTitle.getNameUnicode()));
+        } else {
+            tv_word.setText(getHighlightedText(storyTitle.getNameUnicode()));
+        }
+
+    }
+
+    @Override
+    public int getItemCount() {
+        return storyTitles.size();
+    }
+
+    public void setFilteredWordList(ArrayList<Story> filterWords){
+        storyTitles = filterWords;
+        notifyDataSetChanged();
+    }
+
+    public void setFilterText(String filterText){
+        this.filterText = filterText;
+    }
+
+    private SpannableString getHighlightedText(String word){
+
+        String wordInDeviceEncoding = MDetect.getDeviceEncodedText(word);
+        String filterInDeviceEncoding = MDetect.getDeviceEncodedText(filterText);
+
+        SpannableString highlightedText = new SpannableString(wordInDeviceEncoding);
+        int start_index = word.indexOf(filterInDeviceEncoding);
+        int end_index = start_index + filterInDeviceEncoding.length();
+
+        highlightedText.setSpan(
+                new ForegroundColorSpan(Color.RED), start_index, end_index,
+                Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
+        );
+
+        // set background color for query words
+
+        highlightedText.setSpan(
+                new BackgroundColorSpan(Color.YELLOW), start_index, end_index,
+                Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
+        );
+        return highlightedText;
+    }
+
+    @NonNull
+    @Override
+    public String getSectionName(int position) {
+        char firstChar = storyTitles.get(position).getNameUnicode().charAt(0);
+        return String.valueOf(firstChar);
+    }
+
+
+    class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
+
+        TextView tv_word;
+
+        public ViewHolder(@NonNull View itemView) {
+            super(itemView);
+            tv_word = itemView.findViewById(R.id.tv_word);
+            tv_word.setTextSize(fontSize);
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+            listener.onItemClick(storyTitles.get(getAdapterPosition()));
+            Log.d("StoryTitleAdapter","Story Title Adapter : "+storyTitles.get(getAdapterPosition()));
+        }
+    }
+
+    public interface OnItemClickListener {
+        void onItemClick(Story storyTitle);
+    }
+
+}
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_night"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".fragment.QuizFragment">
+
+    <ImageButton
+        android:id="@+id/settingbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/circular_bg"
+        android:contentDescription="@string/setting_btn"
+        app:srcCompat="@drawable/settingbutton"
+        tools:ignore="TouchTargetSizeCheck,RedundantDescriptionCheck"  android:minHeight="@dimen/project_touch_target" />
+
+    <TextView
+        android:id="@+id/gameover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="-20dp"
+        android:fontFamily="@font/beyond_wonderland"
+        android:gravity="center"
+        android:text="@string/game_over"
+        android:textSize="65sp"
+        android:textColor="#FF0000"
+        tools:ignore="TextContrastCheck" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/basicbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/beyond_wonderland"
+            android:textSize="25sp"
+            android:background="@drawable/gradient_button"
+            android:text="@string/basic_btn"
+            android:padding="10dp"
+            android:textAllCaps="false" android:minHeight="@dimen/project_touch_target" />
+
+        <Button
+            android:id="@+id/advancebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/beyond_wonderland"
+            android:textSize="25sp"
+            android:background="@drawable/gradient_button"
+            android:text="@string/advance_btn"
+            android:padding="10dp"
+            android:textAllCaps="false" android:minHeight="@dimen/project_touch_target" />
+    </LinearLayout>
+
+</LinearLayout>

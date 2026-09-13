@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <solid android:color="@android:color/transparent" /> <!-- สีพื้นหลัง -->
+        <corners android:radius="1000dp" /> <!-- มุมโค้งเพื่อให้เป็นวงกลม -->
+        <stroke android:width="2dp" android:color="@android:color/transparent" /> <!-- ขอบ (ถ้าไม่ต้องการลบออก) -->
+    </shape>

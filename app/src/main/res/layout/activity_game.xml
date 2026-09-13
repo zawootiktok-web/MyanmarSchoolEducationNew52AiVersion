@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_night"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".fragment.QuizFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp">
+
+        <ProgressBar
+            android:id="@+id/timerProgressBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:indeterminate="false"
+            android:max="7000"
+            android:progress="7000"
+            android:progressDrawable="@drawable/custom_progress_bar" />
+
+        <ImageButton
+            android:id="@+id/pausebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/circular_bg"
+            android:contentDescription="@string/pause_btn"
+            app:srcCompat="@drawable/pausebutton"
+            tools:ignore="TouchTargetSizeCheck,RedundantDescriptionCheck"  android:minHeight="@dimen/project_touch_target" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/vocab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/beyond_wonderland"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <!-- ปรับ ImageView ให้มีน้ำหนักการแบ่งพื้นที่ -->
+
+    <!-- ปรับ LinearLayout ที่มีปุ่มให้มีความสูงคงที่ -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/witchImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/pic"
+            android:scaleType="fitCenter"
+            android:src="@drawable/witch01"
+            tools:ignore="InefficientWeight" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/vocabbtn1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/rounded_button"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="2"
+                android:minHeight="75dp"
+                android:text="@string/THvocab1"
+                android:textSize="18sp"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/vocabbtn2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/rounded_button"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="2"
+                android:minHeight="75dp"
+                android:text="@string/THvocab2"
+                android:textSize="18sp"
+                tools:ignore="VisualLintButtonSize"
+                android:layout_marginTop="9dp"/>
+
+
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

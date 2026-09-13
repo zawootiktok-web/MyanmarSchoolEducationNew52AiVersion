@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ebook_ebook_app_name">KG AudioShelf</string>
+<string name="ebook_more">more</string>
+	<string name="ebook_next">next</string>
+	<string name="ebook_pre">pre</string>
+	<string name="ebook_choose">choose</string>
+<string name="ebook_horrorstory">Horror Story</string>
+<string name="ebook_bookforyou">Bookshelf (PDF)</string>
+<string name="ebook_welcome">Wellcone from ​Myanmar Audio Book Apk ....</string>
+<string name="ebook_report">ရီပို့တင်မည်</string>
+<string name="ebook_view">တိုက်ရိုက်ဖတ်မည်</string>
+<string name="ebook_downloaded">Downloaded</string>
+<string name="ebook_downloadothers">အခြားအရာနဲ့ downမည်</string>
+	<string name="ebook_downloadcopy">လင့်ကူးယူရန်</string>
+<string name="ebook_report_message">မင်္ဂလာပါ စာဖတ်မိတ်​ဆွ\n မိတ်​​ဆွေအ​နေနဲ့အခက်အခက်အခဲကြုံ​တွေ့​နေရပါသလား။\n ဘယ်လို​ပြဿနာပင်​ဖြစ်​စေ App ဖန်တီးသူထံ ရီပို့(report)တင်​​ခြင်းဖြင့် ကူညီနိုင်ပါသည်။\nဆက်သွယ်ရန်\n
+		ဖုန်း : +959 -------\n
+		email : onlineebooklibary@gmail.com\n
+		facebook : https://www.facebook.com/\nကို ဆက်သွယ်နိုင်ပါသည်။\​​ကျေးဇူးတင်ပါသည်။</string>
+
+	<string name="ebook_internet_message">မင်္ဂလာ​ပါ\n အင်တာနက်ဆက်သွယ်မှု မရှိ​​သေးပါ။ အင်တာနက်သွယ်​ပြီးမှ ​ပြန်လည်စမ်းသပ်ကြည့်ပါ။\n​ကျေးဇူးတင်ပါသည်။</string>
+
+	<string name="ebook_exit_message">မိတ်​ဆွေအ​နေနဲ့ဤ​ App အား နှစ်သက်ပါက PlaysStore ​ပေါ်တွင် 5Star🌟ပေးပြီးRatingလုပ်​ပေးပါ..ခမျာ။\n​​ကျေးဇူးပါ..ခမျာ။</string>
+
+	<string name="ebook_related">​နောက်ထပ်စာအုပ်​ကောင်းများ</string>
+<string name="ebook_support_content">    ကျွန်ုပ်တို့ စာအုပ်App​ ​​လေး​ရေရှည်ရပ်တည်တံ့နိုင်​​ရေးအတွက် မိမိတို့တတ်နိုင်သ​​လောက် ပါဝင်လှူဒါန်းနိုင်ပါသည်။ ​စာအုပ်   Link များလှူဒါန်း၍​သော်လည်း​ကောင်း၊ ​​ငွေအားဖြင့်သာ်လည်း​ကောင်း တတ်နိုင်သ​​လောက်ပါဝင်လှူဒါန်းဖို့ နှိုး​ဆော်တိုက်တွန်းအပ်ပါသည်။.....</string>
+<string name="ebook_about_content">ဤ OnlinEbookLibary စာကြည့်တိုက်Appသည် ရပ်ရွာနှင့် နိုင်ငံအဝန်းစာကြည့်တိုက်သို့ အချိန့်ပြည်မသွားနိုင်သူများအတွက် နည်းပညာဘက်မှ တက်အား​လျော်စွာ ကူညီပံ့ပိုးထားသည့် Appတစ်ခု​ဖြစ်သည်။\nရည်ရွယ်ချက်မှာ စာအုပ်များကို အခမဲ့ အလွယ်တကူဖတ်ရှုနိုင်ရန်။။\nPdf Ebooksများကို www.mmbookdownload.comမှ ကူးယူထားပါသည်။\n စာကကြည့်တိုက်သည် 
+		Internet ရှိရုံဖြင့်  ဖတ်ချင်​​သောစာအုပ်များကို အလွယ်တကူရှာ​ဖွေဖတ်ရှူနိုင်ရန်​ရေးသားထားပါသည်။ \nဤစာအုပ်Appကို အသုံး​ပြုခ့င်းမှ ရလာတတဲ့Ads Incomeကို ​အသုံးပြုပြီး စာအုပ်အသစ်များထပ်မံဖြည့်သွားပါမယ်..ခမျာ။\nအသုံးပြုမှုအတွက် အထူး​ကျေးဇူးတင်ရှိပါသည်။</string>
+	<string name="ebook_contact_content">App ​ရေးသားသူ\n Programming  Developer\nEmail-onlineebooklibary@gmail.com\nအခက်အခဲရှိသည်ဖြစ်​စေ App ​ရေးသားသူကို  ဆက်သွယ်နိုင်ပါသည်။</string>
+
+	<string name="ebook_recent">မကြာ​​သေးခင်က တင်ထား​​သော</string>
+<string name="ebook_banner_ad_unit_id">ca-app-pub-2481530783933၅၅၅136/852169149၅၅၅5</string>
+	<string name="ebook_admob_interstitial_id">ca-app-pub-2481530783၅၅၅၅933136/70၅၅၅41104771</string>
+
+
+
+	<string name="ebook_cover">cover</string>
+	<string name="ebook_title">title</string>
+	<string name="ebook__00_00_00">00:00:00</string>
+	<string name="ebook__00_00_00_">00:00:00</string>
+	<string name="ebook_btnrepet">btnrepet</string>
+	<string name="ebook_btnprev">btnprev</string>
+	<string name="ebook_btnplay">btnplay</string>
+	<string name="ebook_btnnext">btnnext</string>
+	<string name="ebook_btndownload">btnDownload</string>
+
+	<string name="ebook_close_button_description">close</string>
+
+
+    <string name="ebook_dhama">Dhamma </string>
+    <string name="ebook_longstory">Music</string>
+    <string name="ebook_shortstory">Audiobooks</string>
+    <string name="ebook_popularmusic">Popular Music</string>
+    <string name="ebook_download">​​ဒေါင်းမည်</string>
+    <string name="ebook_search">ရှာ​ဖွေရန်</string>
+    <string name="ebook_share">မျှ​​ဝေရန်</string>
+</resources>

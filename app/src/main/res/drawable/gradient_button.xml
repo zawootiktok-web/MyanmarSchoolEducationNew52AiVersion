@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <gradient
+        android:angle="90"
+        android:startColor="#FFFFFF"
+        android:centerColor="#FFFDFF"
+        android:centerY="0.25"
+        android:endColor="#D2A64F"
+        android:type="linear"
+        android:gradientRadius="1.0" />
+
+    <corners android:radius="20dp" /> <!-- มุมโค้งของปุ่ม -->
+
+</shape>

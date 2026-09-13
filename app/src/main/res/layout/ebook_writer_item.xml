@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="0dp"><androidx.cardview.widget.CardView style="@style/CardView.Light" android:layout_width="match_parent" android:layout_height="50dp" android:foreground="?android:attr/selectableItemBackground" app:cardCornerRadius="10dp" android:id="@+id/w_card" app:cardBackgroundColor="@color/bCard" android:layout_margin="@dimen/blog_item_spacing"><RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"><LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp" android:gravity="center"><ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ebook_ic_person" />
+
+				<View android:layout_width="2dp" android:layout_height="match_parent" android:background="@color/accent" android:layout_marginLeft="2dp" android:alpha="0.8" />
+
+				<TextView android:textSize="@dimen/blog_text_card_title" android:layout_width="37dp" android:layout_height="25dp" android:id="@+id/wp_tv" android:text="" android:gravity="left|center" android:layout_marginLeft="3dp" android:singleLine="true" android:textColor="@color/ebook_white" />
+
+				<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_marginLeft="3dp" android:background="#fefefe" android:layout_height="match_parent" android:gravity="left|center"><ImageView android:layout_width="match_parent" android:layout_height="35dp" android:id="@+id/w_iv" android:gravity="center|left" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+	</androidx.cardview.widget.CardView>
+	
+	
+	
+	
+	
+</LinearLayout>

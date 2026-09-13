@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blog_surface">@color/ebook_surface</color>
+    <color name="blog_background">@color/ebook_backgroundColor</color>
+    <color name="blog_on_surface">@color/ebook_on_surface</color>
+    <color name="blog_on_surface_muted">@color/ebook_on_surface_muted</color>
+    <color name="blog_primary">@color/ebook_primary</color>
+    <color name="blog_secondary">@color/ebook_accent</color>
+    <color name="blog_outline">@color/ebook_outline</color>
+</resources>

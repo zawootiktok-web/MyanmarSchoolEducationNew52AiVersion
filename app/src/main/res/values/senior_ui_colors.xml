@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="project_accent_soft">#F1C8BB</color>
+    <color name="project_info">#03A9F4</color>
+    <color name="project_success">#6A9E47</color>
+    <color name="project_media_background">#212121</color>
+</resources>

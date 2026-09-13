@@ -1,0 +1,115 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+		app:actionViewClass="androidx.appcompat.widget.SearchView"
+		android:icon="@android:drawable/ic_menu_search"
+		app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/Search"/>
+    <item
+        android:id="@+id/menu_font"
+		android:icon="@drawable/refresh"
+		app:showAsAction="always"
+        android:title="@string/Font"/>
+
+
+
+
+	<item
+		android:id="@+id/lessonshop"
+
+		
+		android:title="@string/Sell_Books"/>
+
+	<item
+		android:id="@+id/bshop"
+
+		
+		android:title="@string/BookShops"/>
+
+	<item
+		android:id="@+id/obook"
+
+			android:title="@string/OthersBooks"/>
+
+	<item
+		android:id="@+id/kg"
+
+		android:title="@string/Kg"/>
+
+
+	<item
+		android:id="@+id/grade1"
+
+		
+		android:title="@string/Grade1"/>
+
+	<item
+		android:id="@+id/grade2"
+
+		
+		android:title="@string/Grade3"/>
+
+
+	<item
+		android:id="@+id/grade3"
+
+		
+		android:title="@string/Grade3"/>
+
+	<item
+		android:id="@+id/grade4"
+
+		android:icon="@drawable/pdf"
+		android:title="@string/Grade4"/>
+
+
+	<item
+		android:id="@+id/grade5"
+
+		
+		android:title="@string/Grade5"/>
+
+	<item
+		android:id="@+id/grade6"
+
+			android:title="@string/Grade6"/>
+
+
+	<item
+		android:id="@+id/grade7"
+
+			android:title="@string/Grade7"/>
+
+	<item
+		android:id="@+id/grade8"
+
+				android:title="@string/Grade8"/>
+
+
+	<item
+		android:id="@+id/grade9"
+
+			android:title="@string/Grade9"/>
+
+	<item
+		android:id="@+id/grade10"
+
+			android:title="@string/Grade10"/>
+
+
+	<item
+		android:id="@+id/grade11"
+
+		
+		android:title="@string/Grade11"/>
+
+	<item
+		android:id="@+id/grade12"
+
+		
+		android:title="@string/Grade12"/>
+
+
+</menu>
